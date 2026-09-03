@@ -1,0 +1,413 @@
+.bg-body {
+    background-color: #f0f0f0;
+}
+
+
+
+.students-page {
+    width: 100%;
+    padding-bottom: map-get($spacers, 8);
+    background-color: $dark-light;
+    opacity: 100%;
+    overflow-x: hidden;
+
+    .students-first-row,
+    .students-second-row {
+        width: 100%;
+    }
+
+    .card,
+    .apexcharts-canvas,
+    .apexcharts-svg {
+        max-width: 100% !important;
+    }
+
+    .card-body {
+        padding: map-get($spacers, 4);
+    }
+}
+
+.card-heading {
+    @include typography(h6);
+    color: $danger-subtle;
+}
+
+.student-stat {
+    min-height: 148px;
+    overflow: hidden;
+
+    &__body {
+        min-height: 148px;
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        img {
+            width: 26px;
+            height: 26px;
+            object-fit: contain;
+            display: block;
+        }
+    }
+
+    &__content {
+        h3 {
+            color: $danger-subtle;
+            font-weight: 800;
+            line-height: 1;
+        }
+
+        p {
+            color: $secondary-dark;
+        }
+    }
+}
+
+.students-table-top {
+    width: 100%;
+
+    .card-heading {
+        color: $danger-subtle;
+    }
+}
+
+.student-table-actions {
+    flex-wrap: nowrap;
+
+    .btn,
+    .form-select,
+    .form-control,
+    .input-group-text {
+        min-height: 40px;
+    }
+}
+
+.students-search {
+    width: 310px;
+    min-width: 310px;
+    height: 40px;
+    border-radius: map-get($radius-sizes, lg);
+    background-color: $body-bg;
+
+    .form-control,
+    .input-group-text {
+        background-color: $body-bg !important;
+        color: $secondary-dark;
+    }
+
+    .form-control {
+        @include typography(body-md);
+
+        &::placeholder {
+            color: $secondary-dark;
+        }
+    }
+}
+
+.students-status-select-wrap {
+    position: relative;
+    width: 150px;
+    min-width: 150px;
+
+    .students-table-select {
+        width: 100%;
+        height: 40px;
+        padding: 0 38px 0 18px;
+        border: 0;
+        border-radius: map-get($radius-sizes, lg);
+        background-color: $primary;
+        color: $danger-subtle;
+        appearance: none;
+        background-image: none !important;
+        box-shadow: none !important;
+        cursor: pointer;
+        @include typography(body-md);
+
+        &:focus {
+            border: 0;
+            box-shadow: none !important;
+        }
+    }
+
+    .students-select-icon {
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        color: $danger-subtle;
+        pointer-events: none;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+}
+
+.add-student-btn {
+    min-width: 132px;
+    height: 40px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: map-get($radius-sizes, lg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: $danger-subtle !important;
+    @include typography(btn-md);
+}
+
+.students-table {
+    thead {
+        th {
+            // padding: 12px;
+            // border-bottom: 0;
+            // white-space: nowrap;
+            color: $secondary-dark;
+            background-color: #f8f8f8 !important;
+            opacity: 100%;
+            font-weight: 700;
+            // @include typography(cap-lg-bold);
+        }
+    }
+
+    tbody {
+        td {
+            color: $dark;
+            // @include table-cell;
+            // @include typography(body-xs-med);
+        }
+
+        tr {
+            cursor: pointer;
+            border-bottom: 1px solid $info;
+
+            &:hover {
+                background-color: $body-bg;
+            }
+        }
+    }
+
+    // h4 {
+    //     @include typography(body-xs-bold);
+    //     color: $danger-subtle;
+    // }
+
+    // p {
+    //     @include typography(cap-md-reg);
+    //     color: $secondary-dark;
+    // }
+
+    .cursor-pointer {
+        cursor: pointer;
+    }
+}
+
+.attendance-ring {
+    width: 22px;
+    height: 22px;
+    border: 6px solid $secondary;
+    border-top-color: rgba($secondary, 0.35);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.students-pagination-row {
+    .students-page-size-select {
+        width: 62px;
+        height: 36px;
+        border: 0;
+        border-radius: map-get($radius-sizes, md);
+
+        color: $dark;
+        box-shadow: none;
+        // appearance: auto;
+        @include typography(body-xs-bold);
+    }
+
+    >.d-flex:last-child {
+        margin-top: 0 !important;
+        justify-content: flex-end !important;
+    }
+
+    .btn {
+        min-width: 38px;
+        height: 38px;
+        padding: 0 12px !important;
+        border: 0 !important;
+        border-radius: map-get($radius-sizes, md) !important;
+        background-color: $primary !important;
+        color: $danger-subtle !important;
+        box-shadow: none !important;
+        @include typography(body-xs-bold);
+
+        &:disabled {
+            background-color: $body-bg !important;
+            color: $secondary-dark !important;
+            opacity: 1;
+        }
+    }
+
+    .btn.active,
+    .page-item.active .page-link,
+    .btn[aria-current="page"],
+    .btn[style*="233, 179, 214"],
+    .btn[style*="#e9b3d6"] {
+        background-color: $secondary !important;
+        color: $danger-subtle !important;
+    }
+}
+
+.academic-chart {
+    .apexcharts-legend {
+        padding: 0 !important;
+        margin-bottom: 6px !important;
+    }
+
+    .apexcharts-legend-series {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .apexcharts-canvas {
+        margin-top: -4px !important;
+    }
+}
+
+.chart-card {
+    .card-body {
+        padding: 22px;
+    }
+}
+
+.chart-card-header {
+    margin-bottom: 14px;
+}
+
+.chart-filter-btn {
+    min-width: 145px;
+    height: 44px;
+    font-weight: 700;
+}
+
+.chart-card {
+    .chart-card-body {
+        width: 100%;
+        min-height: 220px;
+    }
+
+    .chart-filter-btn {
+        min-width: 120px;
+        justify-content: space-between;
+
+        &::after {
+            display: none !important;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .students-page .card-body {
+        padding: 12px;
+    }
+
+    .students-search {
+        width: 240px;
+        min-width: 240px;
+    }
+
+    .students-status-select-wrap {
+        width: 130px;
+        min-width: 130px;
+    }
+}
+
+@media (max-width: 991px) {
+    .students-table-top {
+        flex-wrap: wrap;
+    }
+
+    .student-table-actions {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .students-search,
+    .students-status-select-wrap,
+    .add-student-btn {
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .students-first-row,
+    .students-second-row {
+        flex-wrap: wrap !important;
+    }
+
+    .student-stat {
+        min-height: 105px;
+    }
+}
+
+@media (max-width: 575px) {
+    .students-pagination-row {
+        justify-content: center !important;
+
+        >div {
+            width: 100%;
+            justify-content: center !important;
+        }
+    }
+}
+
+.performance-badge {
+    padding: 6px 10px;
+    border-radius: map-get($radius-sizes, xl);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: $dark;
+    @include typography(body-xs-med);
+
+    &__dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    &--good {
+        background-color: #eaf8fb;
+
+        .performance-badge__dot {
+            background-color: #36a9e1;
+        }
+    }
+
+    &--support {
+        background-color: #f1f1f1;
+
+        .performance-badge__dot {
+            background-color: #66706d;
+        }
+    }
+
+    &--risk {
+        background-color: #ffeaf8;
+
+        .performance-badge__dot {
+            background-color: #ff4d5e;
+        }
+    }
+}

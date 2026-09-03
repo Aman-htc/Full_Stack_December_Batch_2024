@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+email-validator
+sqlalchemy
+pyodbc
+passlib==1.7.4
+bcrypt==3.2.2
+PyJWT

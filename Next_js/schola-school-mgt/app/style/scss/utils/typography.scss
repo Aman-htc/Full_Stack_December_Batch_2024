@@ -1,0 +1,40 @@
+@each $name, $style in $custom-font-sizes {
+    
+    .#{$name} {
+        font-size: map-get($style, size);
+        line-height: map-get($style, line-height);
+        font-weight: map-get($style, weight);
+    }
+
+}
+
+// =============================== studenta page create 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@each $name, $style in $custom-font-sizes {
+    .#{$name} {
+        font-size: map-get($style, size);
+        line-height: map-get($style, line-height);
+        font-weight: map-get($style, weight);
+    }
+}
+
+.card-heading {
+    @include typography(h6);
+    color: $danger-subtle;
+}
+
+// ===============================================================

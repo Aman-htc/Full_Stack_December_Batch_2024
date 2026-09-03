@@ -1,0 +1,45 @@
+.expense-right-card {
+    table {
+        tbody {
+            td {
+                padding-top: 31px;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
+
+.expense-trend-chart {
+    .apexcharts-bar-area:hover {
+        fill: #15456F !important;
+    }
+}
+
+.expenses-equal-row {
+    align-items: stretch;
+}
+
+.category-badge-danger {
+    background-color: #15456F !important;
+    color: #FFFFFF !important;
+}
+
+.category-badge-warning {
+    background-color: DBDEDD !important;
+    color: #058EB0 !important;
+}
+
+.category-badge-secondary {
+    background-color: #FFCDFD !important;
+    color: #15456F !important;
+}
+
+.category-badge-primary {
+    background-color: #CEEAF1 !important;
+    color: DBDEDD !important;
+}
+
+.category-badge-gray {
+    background-color: #F0F0F0 !important;
+    color: #66706D !important;
+}

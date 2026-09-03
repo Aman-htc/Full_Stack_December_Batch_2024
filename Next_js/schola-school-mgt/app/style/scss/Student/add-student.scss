@@ -1,0 +1,229 @@
+.add-student-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $body-bg;
+    overflow-x: hidden;
+
+    .card-body {
+        padding: 16px;
+    }
+
+    .form-label {
+        margin-bottom: 7px;
+        color: $dark;
+        @include typography(cap-md-bold);
+    }
+
+    .form-control,
+    .form-select,
+    .input-group-text {
+        min-height: 42px;
+        border: 1px solid $info;
+        border-radius: map-get($radius-sizes, md) !important;
+        background-color: $light;
+        color: $dark;
+        @include typography(body-xs-med);
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        border-color: $warning;
+        box-shadow: 0 0 0 0.18rem rgba($primary, 0.65);
+    }
+
+    .form-control:disabled {
+        background-color: #eeeeee;
+        color: $secondary-dark;
+    }
+
+    textarea.form-control {
+        min-height: 78px;
+    }
+}
+
+.page-breadcrumb {
+    line-height: 1;
+}
+
+.card-heading {
+    @include typography(h6);
+    color: $danger-subtle;
+}
+
+.add-student-layout .card {
+    border-radius: map-get($radius-sizes, xl);
+}
+
+.country-select {
+    max-width: 72px;
+    flex: 0 0 72px !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+}
+
+.phone-input-group {
+    .country-select {
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+
+    .form-control {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+}
+
+.gender-box {
+    width: 100%;
+}
+
+.gender-option {
+    flex: 1;
+    min-height: 42px;
+    padding: 0 12px;
+    border: 1px solid $info;
+    border-radius: map-get($radius-sizes, md);
+    background-color: $light;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    @include typography(body-xs-med);
+
+    input {
+        margin: 0;
+    }
+
+    &.active {
+        border-color: $warning;
+        background-color: $primary;
+        color: $danger-subtle;
+    }
+}
+
+.student-upload-box {
+    min-height: 88px;
+    border: 1.5px dashed $warning;
+    border-radius: map-get($radius-sizes, lg);
+    background-color: $body-bg;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    overflow: hidden;
+
+    input {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+.guardian-box {
+    height: 100%;
+}
+
+.add-student-footer {
+    padding-top: 12px;
+    border-top: 1px solid $info;
+}
+
+@media (max-width: 991px) {
+    .add-student-page .card-body {
+        padding: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .add-student-page .card-body {
+        padding: 12px;
+    }
+
+    .gender-box {
+        flex-direction: column;
+    }
+
+    .country-select {
+        max-width: 68px;
+        flex-basis: 68px !important;
+    }
+}
+
+.image-remove-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.student-upload-box {
+    position: relative;
+    min-height: 170px;
+    overflow: hidden;
+
+    input {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+}
+
+.add-student-page {
+
+    .invalid-feedback,
+    .form-error-text {
+        color: $success-light !important;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 1.4;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .form-control.is-invalid,
+    .form-select.is-invalid {
+        border-color: $success-light !important;
+        background-image: none !important;
+        box-shadow: none !important;
+    }
+
+    .form-control.is-invalid:focus,
+    .form-select.is-invalid:focus {
+        border-color: $success-light !important;
+        box-shadow: 0 0 0 0.18rem rgba($success-light, 0.15) !important;
+    }
+
+    .input-group {
+        .form-control.is-invalid {
+            border-color: $success-light !important;
+        }
+
+        .form-control.is-invalid~.invalid-feedback {
+            display: block;
+        }
+    }
+
+    .gender-box-invalid {
+        .gender-option {
+            border-color: $success-light !important;
+        }
+    }
+
+    .student-upload-box.upload-box-invalid {
+        border-color: $success-light !important;
+        background-color: rgba($success-light, 0.06) !important;
+    }
+}

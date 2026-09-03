@@ -1,0 +1,68 @@
+[2026-04-24 01:58:30] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function RegisterUser has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.RegisterUser ?, ?, ?,? ,?,?,?]
+[parameters: ('Aman', 'aman-7@yopmail.com', '$2b$12$N.AG1E9mP7B0iv.eSa3sfez5ZNWR0Pg2.v79wNV5J/LcW4OqWh4A6', '8787654543', 'Bihar', 'Gopalganj', '841440')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 10:18:33] (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: EXEC TRAINING_TEAM3.RegisterUser ?, ?, ?, ?, ?, ]
+[parameters: ('Aman', 'aman-8@yopmail.com', '810267876', 'Bihar', 'Gopalganj')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 11:52:13] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function UpdateUser has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.UpdateUser ?, ?, ?, ?, ?, ?]
+[parameters: ('571', 'aman', 'user1@gmail.com', '9000000001', 'Bihar', 'Gopalganj')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 11:52:32] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function UpdateUser has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.UpdateUser ?, ?, ?, ?, ?, ?]
+[parameters: ('571', 'aman', 'user1@gmail.com', '9000000001', 'Bihar', 'Gopalganj')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 11:52:46] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function UpdateUser has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.UpdateUser ?, ?, ?, ?, ?, ?]
+[parameters: ('571', 'User1', 'user1@gmail.com', '9000000001', 'Rajasthan', 'Gopalganj')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 14:26:58] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function UpdateUser has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.UpdateUser ?, ?, ?, ?, ?, ?]
+[parameters: ('571', 'User1', 'user1@gmail.com', '9000000001', 'Rajasthan', 'Gopalganj')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 17:58:16] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function GetUsersByPage has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.GetUsersByPage ?, ?]
+[parameters: (1, '')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 17:58:54] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function GetUsersByPage has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.GetUsersByPage ?, ?]
+[parameters: (1, '')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 17:59:02] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function GetUsersByPage has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.GetUsersByPage ?, ?]
+[parameters: (1, 'aman')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 17:59:07] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function GetUsersByPage has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.GetUsersByPage ?, ?]
+[parameters: (2, 'aman')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-24 17:59:08] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function GetUsersByPage has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.GetUsersByPage ?, ?]
+[parameters: (3, 'aman')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-25 09:15:55] (pyodbc.OperationalError) ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (10054)')
+[SQL: 
+                SELECT ID, NAME, EMAIL
+                FROM TRAINING_TEAM3.MAIN_USER_REGISTRATION
+                WHERE LOWER(LTRIM(RTRIM(EMAIL))) = ?
+            ]
+[parameters: ('aman-4@yopmail.com',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-04-25 12:34:43] (pyodbc.OperationalError) ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: An existing connection was forcibly closed by the remote host.\r\n (10054) (SQLExecDirectW); [08S01] [Microsoft][ODBC Driver 17 for SQL Server]Communication link failure (10054)')
+[SQL: EXEC TRAINING_TEAM3.GetUsersByPage ?, ?]
+[parameters: (1, '')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-07-27 16:03:30] (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+[2026-07-27 16:03:30] (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+[2026-07-27 16:05:23] (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+[2026-07-27 16:05:24] (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+[2026-07-27 16:07:01] (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+[2026-07-27 16:07:01] (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'training'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)

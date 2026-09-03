@@ -1,0 +1,11 @@
+@import "../variables";
+
+@each $name, $style in $custom-font-sizes {
+
+  .#{$name} {
+    font-size: map-get($style, size);
+    line-height: map-get($style, line-height);
+    font-weight: map-get($style, weight);
+  }
+
+}

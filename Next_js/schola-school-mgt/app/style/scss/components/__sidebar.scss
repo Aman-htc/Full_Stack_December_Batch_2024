@@ -1,0 +1,25 @@
+
+
+.icon-size {
+  font-size: 22px;
+  width: 22px;
+}
+.border-rounded{
+  border-radius: 15px;
+}
+@media (max-width: 991px) {
+  .icon-size {
+    font-size: 27px;
+  }
+  .border-rounded{
+    border-radius: 30px;
+  }
+}
+
+
+// chart 
+
+.wh-10{
+  width: 10px;
+  height: 10px;
+}

@@ -1,0 +1,62 @@
+.icon-box {
+  
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.profile-circle {
+  width: 40px;
+  height: 40px;
+ 
+  border-radius: 50%;
+}
+
+.notification-dot {
+  width: 8px;
+  height: 8px;
+  
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+// scrool
+.scroll-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none;             
+}
+
+.input_size{
+  max-width: 250px;
+
+}
+@media (max-width: 475px) {
+  .input_size {
+    max-width: 150px;
+   
+  }
+  
+}
+
+// breadcrumb-item 
+
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 8px !important;
+  // color: #6c757d;
+}
+.breadcrumb {
+  gap: 2px;
+}

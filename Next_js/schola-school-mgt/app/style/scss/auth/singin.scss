@@ -1,0 +1,38 @@
+.login-form-card {
+    max-width: 430px;
+}
+
+.login-image-section {
+    padding: 50px;
+    background: $danger-subtle;
+}
+
+.login-image-box {
+    min-height: calc(100vh - 100px);
+    border-radius: 0;
+    overflow: hidden;
+}
+
+@media (max-width: 991.98px) {
+    .login-form-card {
+        max-width: 520px;
+    }
+
+    .login-image-section {
+        padding: 32px;
+    }
+
+    .login-image-box {
+        min-height: 430px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .login-image-section {
+        padding: 20px;
+    }
+
+    .login-image-box {
+        min-height: 300px;
+    }
+}

@@ -1,0 +1,67 @@
+@import './variables';
+
+
+$theme-colors: (
+  "primary": $primary,
+  "primary-subtle": $primary-subtle,
+  "bg-body":$bg-body,
+
+  "secondary": $secondary,
+  "secondary-subtle": $secondary-subtle,
+  "secondary-dark": $secondary-dark,
+  "secondary-light": $secondary-light,
+
+  "success": $success,
+  "info": $info,
+
+  "warning": $warning,
+  "warning-subtle": $warning-subtle,
+
+  "danger": $danger,
+  "danger-subtle": $danger-subtle,
+
+  "light": $light,
+  "dark": $dark,
+  "white": $white,
+  "dark-light":$dark-light,
+  "success-light":$success-light,
+  "danger-light":$danger-light,
+  "warning-light":$warning-light,
+  "light-gray": $light-gray
+);
+
+
+
+/* Bootstrap core only */
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/mixins';
+
+/* YOUR CUSTOM STYLES */
+
+
+@import './utils/mixins';
+@import './components/_sidebar';
+@import './components/_header';
+@import './components/_typography';
+@import './Student/Student.scss';
+@import'./Student/add-student.scss';
+@import'./Student/StudentDetails.scss';
+@import'./finance/expenses.scss';
+@import'./finance/Fees.scss';
+
+@import'./inbox/inbox.scss';
+@import'./auth/singup.scss';
+@import'./auth/singin.scss';
+
+@import './components/_header';
+@import './components/_typography';
+@import './components//_todolist';
+@import './components//_calendar';
+
+/* Bootstrap LAST */
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+body {
+  font-family: var(--font-manrope), sans-serif;
+}

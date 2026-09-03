@@ -1,0 +1,224 @@
+.inbox-page {
+    // background-color: $dark-light;
+
+    .inbox-panel {
+        // background-color: $light;
+        box-shadow: 0 4px 18px rgba($danger-subtle, 0.08);
+    }
+
+    .category-btn {
+        min-height: 42px;
+        transition: 0.2s ease;
+        color: $secondary-dark !important;
+        background-color: transparent !important;
+
+        svg {
+            color: currentColor !important;
+            flex-shrink: 0;
+        }
+
+        &.active,
+        &:hover,
+        &:focus {
+            background-color: $primary !important;
+            color: $danger-subtle !important;
+        }
+
+        &.active {
+            .category-count {
+                min-width: 28px !important;
+                height: 28px !important;
+                border-radius: 50% !important;
+                background-color: $secondary !important;
+                color: $danger-subtle !important;
+                display: inline-flex !important;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .category-count {
+        padding: 0 !important;
+        min-width: auto !important;
+        width: auto !important;
+        height: auto !important;
+        border-radius: 0 !important;
+        background-color: transparent !important;
+        color: currentColor !important;
+    }
+
+    .inbox-title,
+    .email-name,
+    .mail-user-name {
+        color: $danger-subtle;
+    }
+
+    .label-name,
+    .label-count,
+    .small-text,
+    .icon-btn {
+        color: $secondary-dark !important;
+    }
+
+    .label-name,
+    .label-count,
+    .email-preview,
+    .mail-body,
+    .compose-textarea {
+        @include typography(body-xs-reg);
+    }
+
+    .label-dot {
+        width: 13px;
+        height: 9px;
+        border-radius: 2px;
+        display: inline-block;
+        flex-shrink: 0;
+        clip-path: polygon(0 0, 78% 0, 100% 50%, 78% 100%, 0 100%);
+
+        &.label-academic {
+            background-color: $secondary;
+        }
+
+        &.label-events {
+            background-color: $danger-subtle;
+        }
+
+        &.label-finance {
+            background-color: $primary;
+        }
+
+        &.label-admin {
+            background-color: $secondary-dark;
+        }
+    }
+
+    .mail-search {
+
+        .input-group-text,
+        .form-control {
+            min-height: 42px;
+            // background-color: $dark-light;
+            color: $secondary-dark;
+            box-shadow: none;
+            @include typography(body-xs-reg);
+        }
+
+        .input-group-text:first-child {
+            border-radius: 12px 0 0 12px;
+        }
+
+        .input-group-text:last-child {
+            border-radius: 0 12px 12px 0;
+        }
+    }
+
+    .add-mail-btn,
+    .send-btn {
+        background-color: $secondary !important;
+        color: $danger-subtle !important;
+    }
+
+    .add-mail-btn {
+        width: 42px;
+        height: 42px;
+    }
+
+    .email-list {
+        max-height: 650px;
+        padding-right: 2px;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .email-item {
+        // background-color: $light !important;
+        color: inherit !important;
+
+        &.active,
+        &:hover {
+            background-color: $info !important;
+        }
+    }
+
+    .avatar-box {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-color: $secondary;
+        color: $warning;
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        @include typography(body-xs-bold);
+
+        &.avatar-lg {
+            width: 52px;
+            height: 52px;
+            font-size: 14px;
+        }
+    }
+
+    .email-time {
+        color: $secondary-dark;
+        @include typography(cap-lg-reg);
+    }
+
+    .email-subject {
+        color: $dark;
+        @include typography(body-xs-bold);
+    }
+
+    .email-preview {
+        color: $secondary-dark;
+        overflow: hidden;
+    }
+
+    .mail-toolbar {
+        border-bottom: 1px solid rgba($secondary-dark, 0.18);
+    }
+
+    .editor-toolbar,
+    .compose-card {
+        border: 1px solid rgba($secondary-dark, 0.18);
+    }
+
+    .mail-message-box,
+    .compose-badge {
+        background-color: $dark-light !important;
+    }
+
+    .mail-subject {
+        color: $dark;
+        @include typography(h5);
+    }
+
+    .mail-body {
+        white-space: pre-line;
+    }
+
+    .compose-card {
+        background-color: $light;
+    }
+
+    .compose-badge {
+        color: $dark !important;
+        @include typography(body-xs-med);
+    }
+
+    .compose-textarea {
+        resize: none;
+    }
+
+    .format-btn {
+        width: 34px;
+        height: 34px;
+        background-color: $primary !important;
+        color: $danger-subtle !important;
+        @include typography(body-xs-bold);
+    }
+}

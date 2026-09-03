@@ -1,0 +1,128 @@
+$primary: #CEEAF1 !default;
+// $primary-light:#058EB0
+$primary-subtle: #E4EDFA !default;
+$bg-body: #F0F0F0;
+$secondary: #FFCDFD !default;
+$secondary-subtle: #D7F4E9 !default;
+$secondary-dark: #66706D !default;
+$secondary-light: #D7F4E8 !default;
+
+$success: #FCEBFC !default;
+$info: #E9F4F6 !default;
+$warning: #058EB0 !default;
+$warning-subtle: #CEEAF1 !default;
+
+$danger: #63716E !default;
+$danger-subtle: #15456F;
+
+$light: #FFFFFF !default;
+$dark: #00100B !default;
+$white: #FCFCFD !default;
+$dark-light: #F8F8F8;
+$success-light: #FB5858;
+$danger-light: #DBDEDD;
+$warning-light: #45C4A2;
+$light-gray: #F0F0F0;
+
+
+$spacer: 0.25rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 1,
+  //4px
+  2: $spacer * 2,
+  //8px
+  3: $spacer * 3,
+  //12px
+  4: $spacer * 4,
+  //16px
+  5: $spacer * 5,
+  //20px
+  6: $spacer * 6,
+  //24px
+  8: $spacer * 8,
+  //32px
+  9: $spacer * 9,
+  // 36x
+  10:$spacer * 10,
+  //40px
+  12:$spacer * 12,
+  //48px
+  16:$spacer * 16,
+  //64px
+);
+
+
+
+/* BORDER RADIUS */
+$radius-sizes: (
+  none: 0,
+  sm: 6px,
+  md: 8px,
+  lg: 12px,
+  xl: 16px,
+);
+
+
+
+
+
+$custom-font-sizes: (
+  // Headings (Heading Column)
+  h1 : (size: 28px, line-height: 115%, weight: 700),
+  // 28-Bold
+  h2 : (size: 24px, line-height: 115%, weight: 700),
+  // 24-Bold
+  h3 : (size: 20px, line-height: 120%, weight: 700),
+  // 20-Bold
+  h4 : (size: 20px, line-height: 120%, weight: 600),
+  // 20-SemiBold
+  h5 : (size: 18px, line-height: 122%, weight: 700),
+  // 18-Bold
+  h6 : (size: 16px, line-height: 122%, weight: 800),
+  // 16-ExtraBold
+  h6-alt : (size: 16px, line-height: 122%, weight: 700),
+  // 16-Bold
+
+  // Body (Body Column)
+  body-lg : (size: 14px, line-height: 140%, weight: 700),
+  // 14-Bold
+  body-md : (size: 14px, line-height: 142%, weight: 500),
+  // 14-Medium
+  body-sm : (size: 14px, line-height: 145%, weight: 400),
+  // 14-Regular
+  body-xs-bold: (size: 12px, line-height: 150%, weight: 700),
+  // 12-Bold
+  body-xs-med : (size: 12px, line-height: 150%, weight: 500),
+  // 12-Medium
+  body-xs-reg : (size: 12px, line-height: 150%, weight: 400),
+  // 12-Regular
+
+  // Buttons (Btn Column)
+  btn-lg : (size: 16px, line-height: 100%, weight: 600),
+  // 16-SemiBold
+  btn-md : (size: 14px, line-height: 100%, weight: 600),
+  // 14-SemiBold
+  btn-sm : (size: 12px, line-height: 100%, weight: 600),
+  // 12-SemiBold
+
+  // Captions (Caption Column)
+  cap-lg-bold : (size: 8px, line-height: 145%, weight: 700),
+  // 11-Bold
+  cap-lg-med : (size: 11px, line-height: 140%, weight: 500),
+  // 11-Medium
+  cap-lg-reg : (size: 11px, line-height: 145%, weight: 400),
+  // 11-Regular
+  cap-md-bold : (size: 10px, line-height: 135%, weight: 700),
+  // 10-Bold
+  cap-md-med : (size: 10px, line-height: 138%, weight: 500),
+  // 10-Medium
+  cap-md-reg : (size: 10px, line-height: 135%, weight: 400),
+  // 10-Regular
+  cap-sm-med : (size: 9px, line-height: 130%, weight: 500),
+  // 9-Medium
+  cap-xs-med : (size: 8px, line-height: 130%, weight: 500),
+  // 8-Medium
+  cap-xs-reg : (size: 8px, line-height: 130%, weight: 400),
+  // 8-Regular
+);

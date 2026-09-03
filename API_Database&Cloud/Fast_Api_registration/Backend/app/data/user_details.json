@@ -1,0 +1,20 @@
+[
+    {
+        "id": "14200bb8-987f-4115-a84b-43f039c22158",
+        "name": "Aman",
+        "email": "amana@example.com",
+        "password": "876543@#",
+        "number": "8102648831",
+        "qualification": "12th",
+        "address": "arna"
+    },
+    {
+        "id": "892386c4-f70c-411d-a76c-0296edc0830b",
+        "name": "Vishal",
+        "email": "mk0625947@gmail.com",
+        "password": "12345#@",
+        "number": "8102648831",
+        "qualification": "12th",
+        "address": "arna"
+    }
+]

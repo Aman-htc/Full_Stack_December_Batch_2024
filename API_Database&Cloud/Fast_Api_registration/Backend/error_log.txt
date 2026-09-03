@@ -1,0 +1,68 @@
+[2026-04-20 17:14:14] Expecting value: line 1 column 1 (char 0)
+[2026-04-20 17:17:32] Expecting value: line 1 column 1 (char 0)
+[2026-04-21 10:10:06] password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+[2026-04-21 10:47:52] (pyodbc.ProgrammingError) ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'auth.users'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: SELECT TOP 1 auth.users.id AS auth_users_id, auth.users.name AS auth_users_name, auth.users.email AS auth_users_email, auth.users.password AS auth_users_password, auth.users.number AS auth_users_number, auth.users.qualification AS auth_users_qualification, auth.users.address AS auth_users_address 
+FROM auth.users 
+WHERE auth.users.email = ?]
+[parameters: ('amana@example.com',)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-21 11:42:08] name 'hashed_password' is not defined
+[2026-04-21 11:42:22] name 'hashed_password' is not defined
+[2026-04-21 15:23:49] not a valid bcrypt hash
+[2026-04-21 15:25:13] not a valid bcrypt hash
+[2026-04-21 16:05:49] not a valid bcrypt hash
+[2026-04-21 19:50:19] 'User' object has no attribute 'number'
+[2026-04-21 20:20:35] (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'is_active'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: SELECT TOP 1 [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].id AS [TRAINING_TEAM3_MAIN_USER_REGISTRATION_id], [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].name AS [TRAINING_TEAM3_MAIN_USER_REGISTRATION_name], [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].email AS [TRAINING_TEAM3_MAIN_USER_REGISTRATION_email], [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].password AS [TRAINING_TEAM3_MAIN_USER_REGISTRATION_password], [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].created_at AS [TRAINING_TEAM3_MAIN_USER_REGISTRATION_created_at], [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].is_active AS [TRAINING_TEAM3_MAIN_USER_REGISTRATION_is_active] 
+FROM [TRAINING_TEAM3].[MAIN_USER_REGISTRATION] 
+WHERE [TRAINING_TEAM3].[MAIN_USER_REGISTRATION].email = ?]
+[parameters: ('aman@gmail.com',)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-21 21:13:51] 'number' is an invalid keyword argument for UserDB
+[2026-04-21 21:13:52] 'number' is an invalid keyword argument for UserDB
+[2026-04-21 23:16:01] (pyodbc.DataError) ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'undefined' to data type int. (245) (SQLExecDirectW)")
+[SQL: EXEC TRAINING_TEAM3.delete_user ?]
+[parameters: ('undefined',)]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+[2026-04-21 23:16:39] (pyodbc.DataError) ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'undefined' to data type int. (245) (SQLExecDirectW)")
+[SQL: EXEC TRAINING_TEAM3.delete_user ?]
+[parameters: ('undefined',)]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+[2026-04-22 10:02:03] 404: User not found
+[2026-04-22 10:02:24] 404: User not found
+[2026-04-22 10:02:25] 404: User not found
+[2026-04-22 10:02:26] 404: User not found
+[2026-04-22 10:28:47] (pyodbc.ProgrammingError) ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'RegisterUser' expects parameter '@EMAIL', which was not supplied. (201) (SQLExecDirectW)")
+[SQL: EXEC TRAINING_TEAM3.RegisterUser ?]
+[parameters: ('amanku@gmail.com',)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-04-22 10:35:50] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:36:12] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:39:25] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:43:59] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:48:13] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:49:34] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:54:05] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:54:40] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:59:48] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 10:59:49] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 11:00:23] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 11:23:28] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 11:24:18] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 11:39:46] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 11:41:02] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 11:47:53] malformed bcrypt hash (checksum must be exactly 31 chars)
+[2026-04-22 22:48:19] 401: Token missing
+[2026-04-22 23:00:08] 401: Token missing
+[2026-04-23 09:31:19] (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'password'
+[SQL: 
+                EXEC TRAINING_TEAM3.UpdateUser
+                ?, ?, ?, ?
+            ]
+[parameters: [{'user_id': '544', 'name': 'amansingh', 'email': 'sunn@mail.com'}]]
+(Background on this error at: https://sqlalche.me/e/20/cd3x)
+[2026-04-24 01:51:21] (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function RegisterUser has too many arguments specified. (8144) (SQLExecDirectW)')
+[SQL: EXEC TRAINING_TEAM3.RegisterUser ?, ?, ?,? ,?,?,?]
+[parameters: ('Aman', 'aman-6@yopmail.com', '$2b$12$C8yYZ/rptNuzLEHo5yOAaOG02mo4E7rLBMZchIVwKxvbkw3es04si', '8787654543', 'Bihar', 'Gopalganj', '841440')]
+(Background on this error at: https://sqlalche.me/e/20/f405)

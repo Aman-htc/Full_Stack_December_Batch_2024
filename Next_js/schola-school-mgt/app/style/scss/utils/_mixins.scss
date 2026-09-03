@@ -1,0 +1,282 @@
+@import "../variables";
+
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/variables";
+@import "../../../../node_modules/bootstrap/scss/maps";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+
+@mixin typography($name) {
+    $style: map-get($custom-font-sizes, $name);
+
+    @if $style {
+        font-size: map-get($style, size);
+        line-height: map-get($style, line-height);
+        font-weight: map-get($style, weight);
+    }
+
+    @else {
+        @warn "Typography style `#{$name}` not found.";
+    }
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin circle-box($size, $bg: $secondary) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background-color: $bg;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+}
+
+@mixin icon-box($size: 40px, $bg: $info, $color: $danger-subtle) {
+    width: $size;
+    height: $size;
+    border-radius: map-get($radius-sizes, lg);
+    background-color: $bg;
+    color: $color;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+@mixin card-hover {
+    transition: 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+}
+
+@mixin table-cell {
+    padding: 11px 12px;
+    border-bottom: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+@mixin status-pill {
+    padding: 6px 12px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+// loop
+@each $name, $color in $theme-colors {
+    .bg-#{$name} {
+        background-color: $color !important;
+    }
+
+    .text-#{$name} {
+        color: $color !important;
+    }
+
+    .border-#{$name} {
+        border-color: $color !important;
+    }
+}
+
+@each $name, $color in $theme-colors {
+    .btn-#{$name} {
+        background-color: $color !important;
+        border-color: $color !important;
+        color: $dark !important;
+    }
+
+    .btn-#{$name}:hover {
+        background-color: darken($color, 5%) !important;
+        border-color: darken($color, 5%) !important;
+    }
+
+    .btn-outline-#{$name} {
+        border-color: $color !important;
+        color: $color !important;
+    }
+}
+
+@each $name, $color in $theme-colors {
+    .badge.bg-#{$name} {
+        background-color: $color !important;
+        color: $dark !important;
+    }
+
+    .badge-soft-#{$name} {
+        background-color: rgba($color, 0.35) !important;
+        color: $danger-subtle !important;
+    }
+}
+
+@each $name, $color in $theme-colors {
+    .soft-#{$name} {
+        background-color: rgba($color, 0.35) !important;
+        color: $danger-subtle !important;
+    }
+
+    .hover-#{$name}:hover {
+        background-color: rgba($color, 0.35) !important;
+        color: $danger-subtle !important;
+    }
+}
+
+/* ICON BOX LOOP */
+@each $name, $color in $theme-colors {
+    .icon-box-#{$name} {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        background-color: rgba($color, 0.45);
+        color: $danger-subtle;
+    }
+
+    .icon-box-#{$name} {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@each $name, $radius in $radius-sizes {
+    .radius-#{$name} {
+        border-radius: $radius !important;
+    }
+
+    .rounded-#{$name} {
+        border-radius: $radius !important;
+    }
+}
+
+@each $name, $style in $custom-font-sizes {
+    .#{$name} {
+        font-size: map-get($style, size);
+        line-height: map-get($style, line-height);
+        font-weight: map-get($style, weight);
+    }
+}
+
+@each $name, $space in $spacers {
+    .m-#{$name} {
+        margin: $space !important;
+    }
+
+    .p-#{$name} {
+        padding: $space !important;
+    }
+
+    .mt-#{$name} {
+        margin-top: $space !important;
+    }
+
+    .mb-#{$name} {
+        margin-bottom: $space !important;
+    }
+
+    .pt-#{$name} {
+        padding-top: $space !important;
+    }
+
+    .pb-#{$name} {
+        padding-bottom: $space !important;
+    }
+}
+
+/* X/Y SPACING LOOP */
+@each $name, $space in $spacers {
+    .mx-#{$name} {
+        margin-left: $space !important;
+        margin-right: $space !important;
+    }
+
+    .my-#{$name} {
+        margin-top: $space !important;
+        margin-bottom: $space !important;
+    }
+
+    .px-#{$name} {
+        padding-left: $space !important;
+        padding-right: $space !important;
+    }
+
+    .py-#{$name} {
+        padding-top: $space !important;
+        padding-bottom: $space !important;
+    }
+}
+
+/* START/END SPACING LOOP */
+@each $name, $space in $spacers {
+    .ms-#{$name} {
+        margin-left: $space !important;
+    }
+
+    .me-#{$name} {
+        margin-right: $space !important;
+    }
+
+    .ps-#{$name} {
+        padding-left: $space !important;
+    }
+
+    .pe-#{$name} {
+        padding-right: $space !important;
+    }
+
+    .gap-#{$name} {
+        gap: $space !important;
+    }
+}
+
+/* SHADOW LOOP */
+@each $name, $shadow in (sm: 0 4px 14px rgba($danger-subtle, .08), md: 0 8px 24px rgba($danger-subtle, .1), lg: 0 10px 30px rgba($danger-subtle, .12)) {
+    .shadow-theme-#{$name} {
+        box-shadow: $shadow !important;
+    }
+}
+
+/* ALERT LOOP */
+@each $name, $color in $theme-colors {
+    .alert-#{$name} {
+        background-color: rgba($color, 0.35) !important;
+        border-color: $color !important;
+        color: $danger-subtle !important;
+    }
+}
+
+@each $name, $color in $theme-colors {
+    .table-#{$name} {
+        --bs-table-bg: #{$color};
+        --bs-table-color: #{$dark};
+        --bs-table-border-color: #{darken($color, 5%)};
+    }
+}
+
+@each $name, $color in $theme-colors {
+    .focus-#{$name}:focus {
+        border-color: $color !important;
+        box-shadow: 0 0 0 .2rem rgba($color, .35) !important;
+    }
+}
