@@ -1,0 +1,57 @@
+.our-feature{
+    h2{
+
+        line-height: 3rem;
+        
+        
+    }
+    
+    
+    .span2{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(51, 239,160,1);
+
+    }
+    .span-1{
+         width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgb(51, 239,160,1);
+
+
+    }
+
+    
+    
+}
+
+.our-feature{
+    
+    .round{
+            
+        width: 60px;
+        height: 60px;
+
+        &:hover{
+            background-color: black;
+        }
+        }
+    
+}
+
+.round{
+            
+    width: 60px;
+    height: 60px;
+
+    &:hover{
+        background-color: black;
+    }
+    }
+
+// .fsw{
+//     font-size: 12px;
+
+// }

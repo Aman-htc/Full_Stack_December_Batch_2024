@@ -1,0 +1,55 @@
+.footer-section{
+    background-color:#252641;
+
+    .form-control::placeholder{
+        color: $indigo-100;
+    }
+
+    input{
+        background-color: transparent;
+        
+        
+        border-color: $secondary;
+        
+        
+        
+        
+    }
+    p{
+        color: $indigo-100;
+    }
+
+    span{
+        height: 83px;
+        width: 2px;
+        background-color:$gray-500;
+        &:hover{
+            background-color: blue;
+        }
+
+    }
+    .div{
+        span{
+            height: 17px;
+            width: 2px;
+            background-color: $indigo-100;
+        }
+    }
+
+    
+}
+@media (min-width: 992px) {
+  .w-lg-25 {
+     width: 25% !important;
+  }
+}
+@media (max-width:540px){
+    .fsw{
+        font-size: 12px;
+    }
+
+}
+
+
+
+

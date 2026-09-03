@@ -1,0 +1,123 @@
+
+// text  gradient
+.text-gradient{
+  background: linear-gradient(90deg, #0d47a1, #42a5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.border-r{
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+
+// testmonial
+.testimonial{
+  
+   .aman{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    // background-color: red;
+
+   }
+  .d{
+    height: 100px;
+    width: 400px;
+    border: 1px solid red;
+    // background-color: red;
+    
+
+   }
+
+  
+   
+  .card-body{
+    max-width: 570px;
+    border-radius: 2rem;
+    
+    border: 6px solid #F67766;
+    
+    
+    span{
+      height: 100px;
+      width: 2px;
+      background-color: gray;
+      &:hover{
+        background-color: blue;
+      }
+    }
+  }
+  .carousel-control-next{
+    width: 80px;
+    height: 80px;
+    // background-color: rgb(225,225, 225,30%) 
+    background-color: #fff;
+    
+
+
+  } 
+  .carousel-control-next-icon{
+    width: 40px;
+    color: black;
+    height: 40px;
+
+  }
+  .carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentcolor'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e");
+
+  }
+  
+
+
+  
+  }
+
+
+  
+
+
+    
+    
+
+.w-600{
+  width: 600px;
+}
+@media (max-width:991.99px) {
+
+  .card-body{
+    width: 550px;
+  }
+
+
+  
+}
+@media (max-width:720px) {
+
+  .card-body{
+    width: 400px;
+  }
+  
+
+
+  
+}
+@media (max-width:550px) {
+  .text-font{
+    font-size: 10px;
+  }
+
+
+  
+
+
+  
+}
+
+
+
+
+

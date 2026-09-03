@@ -1,0 +1,82 @@
+
+// conatiners
+$sm:540px;
+$md:720px;
+$lg:960px;
+$xl:1140px;
+$xxl:1340px;
+$xxxl:1660px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl:1900px
+) ;
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+  xxxl:$xxxl
+);
+
+// font-size
+$h1-font-size:54px;
+
+$h2-font-size: 40px;
+$h5-font-size:20px; 
+// $h3-font-size:60px;
+
+$line-height-lg:1.8;
+
+// nav
+$navbar-light-color:white;
+// variable color
+
+
+
+
+$navbar-light-active-color:white;
+$primary:#2F327D;
+$danger:#525596;
+$secondary:#696984;
+$warning:#5F5F7E;
+
+
+
+
+// font family
+$font-family-base:'Poppins';
+
+
+// position value
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+  10:  10%,
+  20:20%,
+  30:30%
+) !default;
+
+// btn padding
+$btn-padding-y:.75rem;
+$btn-padding-x:3rem;
+
+
+$btn-padding-x-lg:2.5rem;
+
+$btn-padding-y-lg:1.5rem;
+
+
+
+
+
+
+

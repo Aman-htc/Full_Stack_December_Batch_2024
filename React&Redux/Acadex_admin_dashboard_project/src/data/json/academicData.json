@@ -1,0 +1,44 @@
+{
+  "academicPerformance": [
+    
+    {
+      "year": 2024,
+      "type": "Even",
+      "value": 35
+    },
+    
+    {
+      "year": 2024,
+      "type": "Odd",
+      "value": 30
+    },
+    {
+      "year": 2025,
+      "type": "Even",
+      "value": 40
+    },
+    {
+      "year": 2025,
+      "type": "Odd",
+      "value": 55
+    },
+    {
+      "year": 2026,
+      "type": "Even",
+      "value": 70
+      
+    },
+    {
+      "year": 2026,
+      "type": "Odd",
+      "value": 63
+    },
+    {
+      "year": 2027,
+      "type": "Even",
+      "value": 66
+    }
+
+    
+  ]
+}

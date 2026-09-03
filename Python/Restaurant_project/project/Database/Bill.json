@@ -1,0 +1,113 @@
+[
+    {
+        "Customer_name": "rajsingh",
+        "gst amount": 14.0,
+        "Total amount": 154.0,
+        "upi": "7876765654",
+        "datetime": "2025-05-16 10:59:34.504356",
+        "payment": "online"
+    },
+    {
+        "Customer_name": "aman",
+        "gst amount": 14.0,
+        "Total amount": 154.0,
+        "upi": "9898787654",
+        "datetime": "2025-05-16 13:21:44.691003",
+        "payment": "online"
+    },
+    {
+        "Customer_name": "suraj",
+        "gst amount": 10.0,
+        "Total amount": 110.0,
+        "upi": "8787676543",
+        "datetime": "2025-05-16 20:49:02.724076",
+        "payment": "online"
+    },
+    {
+        "Customer_name": "raj",
+        "gst amount": 10.0,
+        "Total amount": 110.0,
+        "datetime": "2025-05-16 21:45:10.129987",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "dhiraj",
+        "gst amount": 10.0,
+        "Total amount": 110.0,
+        "upi": "8787676543",
+        "datetime": "2025-05-17 07:59:07.182154",
+        "payment": "online"
+    },
+    {
+        "Customer_name": "dhiraj",
+        "gst amount": 8.0,
+        "Total amount": 88.0,
+        "datetime": "2025-05-18 05:46:45.045764",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "sibgh",
+        "gst amount": 18.0,
+        "Total amount": 198.0,
+        "upi": "8987876765",
+        "datetime": "2025-05-18 05:49:35.658768",
+        "payment": "online"
+    },
+    {
+        "Customer_name": "ramveer",
+        "gst amount": 2.0,
+        "Total amount": 22.0,
+        "datetime": "2025-05-18 06:59:10.524084",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "rajan",
+        "gst amount": 9.0,
+        "Total amount": 99.0,
+        "datetime": "2025-05-18 07:09:56.990340",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "aman",
+        "gst amount": 4.0,
+        "Total amount": 44.0,
+        "upi": "7876765654",
+        "datetime": "2025-05-19 22:27:22.182899",
+        "payment": "online"
+    },
+    {
+        "Customer_name": "ram",
+        "gst amount": 12.0,
+        "Total amount": 132.0,
+        "datetime": "2025-05-19 22:30:51.979489",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "ujwal",
+        "gst amount": 14.0,
+        "Total amount": 154.0,
+        "datetime": "2025-05-20 06:14:31.111265",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "aman",
+        "gst amount": 60.0,
+        "Total amount": 660.0,
+        "datetime": "2025-06-08 08:46:21.270835",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "aman",
+        "gst amount": 10.0,
+        "Total amount": 110.0,
+        "datetime": "2025-09-27 23:00:42.336767",
+        "payment": "cash"
+    },
+    {
+        "Customer_name": "subham",
+        "gst amount": 15.0,
+        "Total amount": 165.0,
+        "datetime": "2025-09-28 09:42:02.720841",
+        "payment": "cash"
+    }
+]

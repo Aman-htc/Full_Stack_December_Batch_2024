@@ -1,0 +1,198 @@
+.scroll {
+    max-height: 470px;
+
+    overflow-y: scroll;
+}
+.scroll2{
+    max-height: 570px;
+    overflow-y: scroll;
+    
+}
+
+.height {
+    height: 100vh;
+}
+
+
+.pri {
+
+
+    background-color: rgb(224, 237, 243) !important; 
+
+
+    color: rgb(0, 132, 255);
+   
+    
+
+
+
+
+}
+
+.neo {
+
+    /* padding: 10px 25px; */
+
+    background-color: rgb(250, 242, 204) !important;
+    color: rgb(255, 208, 0);
+    
+
+
+
+
+
+}
+
+.faild {
+    background-color: rgb(247, 221, 243)!important;
+    color: rgba(255, 2, 150, 0.829);
+
+    /* filter: blur(1px); */
+
+
+    
+
+}
+
+.paid {
+    background-color: rgb(220, 255, 220) !important;
+    color: rgb(0, 255, 98);
+    
+   
+
+
+   
+
+}
+.over{
+    background-color: rgba(254, 223, 255, 0.644) !important;
+    color: rgba(247, 0, 255, 0.651);
+  
+
+
+  
+}
+
+.size{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.bold-text{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-under{
+    text-decoration: underline;
+}
+.text-line{
+    text-decoration: line-through;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.border-text{
+    height: 40px;
+    
+    /* border: 2px solid wheat; */
+
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904);
+    /* color: #ccc; */
+    
+
+}
+.text:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.imagesize{
+    width: 20px;
+}
+
+.flued{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.card {
+  border: none !important;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  /* background-color: lightslategray; */
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd !important;
+}
+
+.card-body {
+  padding: 15px 20px;
+}
+
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc; 
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active-dot {
+  background-color: #0d6efd; 
+  transform: scale(1.2);
+}
+
+
+/* .active:hover{
+    border-bottom: 2px solid blue;
+    width: 20px;
+    padding: 10px;
+
+} */
+
+.active-page .page-link {
+  background-color: blue !important;
+  color: white !important;
+  border-color: blue !important;
+}
+.product-image-size{
+    height: 200px;
+    /* width: 200px; */
+    
+}
+
+.thamneail{
+    height: 60px;
+    
+}
+.widthcard{
+    width: 600px;
+    justify-content: space-between;
+}
+.totalpricewidth{
+    width: 300px;
+}

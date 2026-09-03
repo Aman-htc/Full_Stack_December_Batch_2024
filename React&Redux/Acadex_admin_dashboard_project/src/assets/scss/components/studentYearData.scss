@@ -1,0 +1,35 @@
+.chart-wrapper {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.chart-wrapper svg {
+  display: block;
+}
+
+.chart-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.chart-center h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.chart-center p {
+  margin: 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+.spansmallbox{
+    width: 12px;
+    height: 12px;
+    // border-radius: 50%;
+    // background-color: red;
+}

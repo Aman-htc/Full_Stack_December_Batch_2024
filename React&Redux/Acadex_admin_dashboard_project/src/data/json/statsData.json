@@ -1,0 +1,25 @@
+{
+  "Data": [
+    {
+      "id": 1,
+      "title": "Students",
+      "value": "5,699"
+    },
+    {
+      "id": 2,
+      "title": "Lecturers",
+      "value": "297"
+    },
+    {
+      "id": 3,
+      "title": "Awards",
+      "value": "368"
+    },
+    {
+      "id": 4,
+      "title": "Revenue",
+      "value": "$87,395"
+    }
+    
+  ]
+}

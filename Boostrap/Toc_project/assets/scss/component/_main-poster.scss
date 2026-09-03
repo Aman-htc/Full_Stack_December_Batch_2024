@@ -1,0 +1,75 @@
+.online-now{
+    // background-color: $cyan-600;
+    
+    background-color: #49BBBD;
+    clip-path: ellipse(100% 98% at 50% 0%);
+    // mask-image: url("../../image/nav-image/heading-back-image.png");
+    // mask-repeat: no-repeat;
+    // mask-size:100% 100%
+   
+    
+
+
+
+
+    
+
+    .play{
+        .how{
+            background-color: white;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            img{
+                width: 15px;
+            }
+
+
+            &:hover{
+            background-color: #F48C06;
+        }
+            
+           
+            
+        }
+         
+        
+    }
+    h1{
+        span{
+            color: $orange;
+        }
+    }
+    a{
+        background-color: rgb(225,225, 225,30%)  ;
+    }
+    
+
+}
+.navbar{
+    // background-color: $cyan-600;
+    
+    background-color: #49BBBD;
+    .bg-color{
+        background-color:$blue-100  ;
+
+    }
+    .navbar-nav{
+        .link-1{
+            background-color: white;
+            color: black;
+            &:hover{
+                background-color: transparent;
+            }
+
+        }
+        .link-2{
+            background-color: rgb(225,225, 225,30%)  ;
+        }
+    }
+}
+
+

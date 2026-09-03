@@ -1,0 +1,44 @@
+.logo{
+    color: rgb(4, 13, 92);
+    font-weight: bolder;
+}
+.logospan{
+    color: black;
+    font-weight: bolder;
+}
+.footer{
+    background-color: rgb(4, 13, 92); ;
+}
+.text-color{
+    color: rgba(150, 164, 241, 0.288);
+}
+
+.page-size{
+    height: 600px;
+
+}
+.homeimage{
+    width: 100%;
+  height: 600px;
+  object-fit: cover;
+  /* display: block; */
+  /* background-color: red; */
+  justify-content: space-between;
+
+    
+}
+.butt{
+    font-size: 10px;
+}
+.image{ width: 100% ;
+    height :150px;
+    /* objectFit: "cover"} */
+    object-fit: cover;
+}
+.avterimage{
+    width: 80px;
+    
+}
+.border-w{
+    width: 80px;
+}

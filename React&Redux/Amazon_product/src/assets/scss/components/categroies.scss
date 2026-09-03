@@ -1,0 +1,22 @@
+/* Desktop default */
+.category-scroll {
+  display: block;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .category-scroll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    white-space: nowrap;
+    padding-bottom: 10px;
+  }
+
+  .category-item {
+    flex-shrink: 0;
+    min-width: max-content;
+  }
+}

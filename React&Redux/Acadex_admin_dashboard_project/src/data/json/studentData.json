@@ -1,0 +1,143 @@
+{
+  "ActivityData": [
+    {
+      "id": 1,
+      "icon": "Crown",
+      "title": "Annual Math Olympiad",
+      "badge": "Gold Medalist",
+      "description": "Team Quantum - won the gold medal at the Annual Math Olympiad",
+      "date": "2025-08-12"
+    },
+    {
+      "id": 2,
+      "icon": "Shop",
+      "title": "Engineering Project Showcase",
+      "badge": "Best Innovation Award",
+      "description": "Project Innovate became the best participant in the Engineering Project Showcase",
+      "date": "2026-02-2"
+    },
+    {
+      "id": 3,
+      "icon": "Heart",
+      "title": "Volunteer Day",
+      "badge": "Lead Organizer",
+      "description": "Student Council served as lead organizers for Community Volunteer Day",
+      "date": "2024-02-12"
+    },
+    {
+      "id": 4,
+      "icon": "Trophy",
+      "title": "Debate Club Championship",
+      "badge": "Second Place",
+      "description": "Debate Club secured second place in the Intercollege Championship",
+      "date": "2026-01-7"
+    },
+    {
+      "id": 5,
+      "icon": "Shop",
+      "title": "Engineering Project Showcase",
+      "badge": "Best Innovation Award",
+      "description": "Project Innovate became the best participant in the Engineering Project Showcase",
+      "date": "2026-02-2"
+    },
+    {
+      "id": 6,
+      "icon": "Heart",
+      "title": "Volunteer Day",
+      "badge": "Lead Organizer",
+      "description": "Student Council served as lead organizers for Community Volunteer Day",
+      "date": "2024-02-12"
+    },
+    {
+      "id": 7,
+      "icon": "Trophy",
+      "title": "Debate Club Championship",
+      "badge": "Second Place",
+      "description": "Debate Club secured second place in the Intercollege Championship",
+      "date": "2026-02-7"
+    }
+  ],
+
+  "RecentActivity": [
+    {
+      "id": 1,
+      "icon": "FaLaptop",
+      "color": "#2b7de9",
+      "text": "Student Sarah Thompson successfully registered for Advanced Calculus and Modern History for the upcoming semester.",
+      "date": "2026-02-2"
+    },
+    {
+      "id": 2,
+      "icon": "FaGraduationCap",
+      "color": "#3a9b73",
+      "text": "Professor Mark Collins submitted final grades for the course Environmental Science 101.",
+      "date": "2026-01-2"
+    },
+    {
+      "id": 3,
+      "icon": "FaCalendarAlt",
+      "color": "#2b7de9",
+      "text": "Student activities coordinator Lisa Ray created a new event titled 'Spring Music Concert' scheduled for March 15th.",
+      "date": "2026-01-2"
+    },
+    {
+      "id": 4,
+      "icon": "FaBook",
+      "color": "#3a9b73",
+      "text": "Student Jason Lee downloaded the Biochemistry study guide from the university's online resource.",
+      "date": "2026-02-1"
+    },
+    {
+      "id": 5,
+      "icon": "FaInfoCircle",
+      "color": "#2b7de9",
+      "text": "IT administrator updated the profile information for Dr. Emily Stanton in the faculty directory.",
+      "date": "2026-02-7"
+    },
+    {
+      "id": 6,
+      "icon": "FaLaptop",
+      "color": "#3a9b73",
+      "text": "Student Harry Kane successfully registered for Cyber Security for the upcoming semester.",
+      "date": "2026-03-07"
+      
+    },
+    {
+      "id": 7,
+      "icon": "FaGraduationCap",
+      "color": "#3a9b73",
+      "text": "Professor Mark Collins submitted final grades for the course Environmental Science 101.",
+      "date": "2025-01-20"
+    },
+    {
+      "id": 8,
+      "icon": "FaCalendarAlt",
+      "color": "#2b7de9",
+      "name":"Lisa Ray",
+      "text": "Student activities coordinator Lisa Ray created a new event titled 'Spring Music Concert' scheduled for March 15th.",
+      "date": "2026-01-02"
+    },
+    {
+      "id": 9,
+      "icon": "FaBook",
+      "color": "#3a9b73",
+      "text": "Student Jason Lee downloaded the Biochemistry study guide from the university's online resource.",
+      "date": "2026-01-04"
+    },
+    {
+      "id": 10,
+      "icon": "FaInfoCircle",
+      "color": "#2b7de9",
+      "text": "IT administrator updated the profile information for Dr. Emily Stanton in the faculty directory.",
+      "date": "2026-01-20"
+    },
+    {
+      "id": 11,
+      "icon": "FaLaptop",
+      "color": "#3a9b73",
+      "text": "Student Harry Kane successfully registered for Cyber Security for the upcoming semester.",
+      "date": "2026-01-22"
+      
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Students",
+  "total": 5100,
+  "data": [
+    { "year": "2020", "value": 1200, "color": "#2563eb" },
+    { "year": "2021", "value": 1250, "color": "#60a5fa" },
+    { "year": "2022", "value": 1300, "color": "#059669" },
+    { "year": "2023", "value": 1350, "color": "#7cc4a1" }
+    
+  ]
+}

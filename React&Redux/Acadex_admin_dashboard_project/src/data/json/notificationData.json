@@ -1,0 +1,75 @@
+{
+  "notification": [
+    {
+      "id": 1,
+      "image": "../assets/image/avtarimage.webp",
+      "name": "Susan Grey",
+      "title": "Reminder: Department meeting this Wednesday at 3 PM in the main conference hall.",
+      "time": "2:00 PM"
+    },
+    {
+      "id": 2,
+      "image": "src/assets/image/awtarimage3.webp",
+      "name": "Jordan Kim",
+      "title": "Hello, I'm having trouble accessing the online library resources. Could you assist me?",
+      "time": "11:15 AM"
+    },
+    
+    {
+      "id": 3,
+      "image": "src/assets/image/avtarimage.webp",
+      "name": "Dean Richard Neal",
+      "title": "Dear staff, please join me in welcoming our new faculty members at the reception.",
+      "time": "10:00 AM"
+    },
+    {
+      "id": 4,
+      "image": "src/assets/image/avtarimage.webp",
+      "name": "Campus Health Center",
+      "title": "I need assistance with room booking for my extra lectures next week.",
+      "time": "9:00 AM"
+    },
+    {
+      "id": 5,
+      "image": "src/assets/image/avtarimag2.webp",
+      "name": "Dr. Alan Hopper",
+      "title": "Flu vaccinations are available free of charge next week. Please visit the Health Center.",
+      "time": "7:45 AM"
+    },
+    {
+      "id": 6,
+      "image": "src/assets/image/awtarimage3.webp",
+      "name": "Jordan Kim",
+      "title": "Hello, I'm having trouble accessing the online library resources. Could you assist me?",
+      "time": "11:15 AM"
+    },
+    {
+      "id": 7,
+      "image": "src/assets/image/avtarimag2.webp",
+      "name": "Dean Richard Neal",
+      "title": "Dear staff, please join me in welcoming our new faculty members at the reception.",
+      "time": "10:00 AM"
+    },
+    {
+      "id": 8,
+      "image": "src/assets/image/awtarimage3.webp",
+      "name": "Campus Health Center",
+      "title": "I need assistance with room booking for my extra lectures next week.",
+      "time": "9:00 AM"
+    },
+    {
+      "id": 9,
+      "image": "src/assets/image/awtarimage3.webp",
+      "name": "Dr. Alan Hopper",
+      "title": "Flu vaccinations are available free of charge next week. Please visit the Health Center.",
+      "time": "7:45 AM"
+    },
+    {
+      "id": 9,
+      "image": "src/assets/image/awtarimage3.webp",
+      "name": "Dr. Alan Hopper",
+      "title": "Flu vaccinations are available free of charge next week. Please visit the Health Center.",
+      "time": "7:45 AM"
+    }
+  ]
+}

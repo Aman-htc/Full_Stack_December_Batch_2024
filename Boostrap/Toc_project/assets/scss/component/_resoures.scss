@@ -1,0 +1,26 @@
+.fs-36{
+    font-size: 36px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-20{
+    font-size: 22px;
+
+
+
+}
+
+
+.resoures{
+    .new{
+        background-color: #49BBBD;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #49BBBD;
+        &:hover{
+            background-color: transparent ;
+            color: #49BBBD;
+        }
+    }
+}

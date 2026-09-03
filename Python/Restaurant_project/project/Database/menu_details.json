@@ -1,0 +1,186 @@
+[
+    [
+        {
+            "id": "40",
+            "type": "full",
+            "name": "Aloo Paratha",
+            "price": 50
+        },
+        {
+            "id": "ee",
+            "type": "half",
+            "name": "Aloo Paratha",
+            "price": 30
+        },
+        {
+            "id": "48",
+            "type": "full",
+            "name": "Chana Ghugni",
+            "price": 40
+        },
+        {
+            "id": "06",
+            "type": "half",
+            "name": "Chana Ghugni",
+            "price": 20
+        },
+        {
+            "id": "90",
+            "type": "full",
+            "name": "Sattu Paratha",
+            "price": 50
+        },
+        {
+            "id": "b0",
+            "type": "half",
+            "name": "Sattu Paratha",
+            "price": 30
+        },
+        {
+            "id": "69",
+            "type": "100g",
+            "name": "Jalebi",
+            "price": 40
+        },
+        {
+            "id": "04",
+            "type": "half",
+            "name": "Chai",
+            "price": 20
+        },
+        {
+            "id": "b1",
+            "type": "full",
+            "name": "Salad",
+            "price": 40
+        },
+        {
+            "id": "0e",
+            "type": "half",
+            "name": "Salad",
+            "price": 20
+        },
+        {
+            "id": "a0",
+            "type": "1ltr",
+            "name": "Water Bottle",
+            "price": 20
+        },
+        {
+            "id": "72",
+            "type": "full",
+            "name": "Chola Bhatura",
+            "price": 70
+        },
+        {
+            "id": "61",
+            "name": "Mix sabji",
+            "price": 50,
+            "type": "full"
+        },
+        {
+            "id": "13",
+            "name": "Poha",
+            "price": 200,
+            "type": "full"
+        }
+    ],
+    [
+        {
+            "id": "73",
+            "type": "full",
+            "name": "Litti Chokha",
+            "price": 60
+        },
+        {
+            "id": "76",
+            "type": "half",
+            "name": "Litti Chokha",
+            "price": 30
+        },
+        {
+            "id": "14",
+            "type": "full",
+            "name": "Rice Dal",
+            "price": 70
+        },
+        {
+            "id": "a6",
+            "type": "full",
+            "name": "Paneer Butter Masala",
+            "price": 200
+        },
+        {
+            "id": "91",
+            "type": "half",
+            "name": "Paneer Butter Masala",
+            "price": 110
+        },
+        {
+            "id": "a5",
+            "type": "full",
+            "name": "Shahi Paneer",
+            "price": 180
+        },
+        {
+            "id": "e8",
+            "type": "half",
+            "name": "Shahi Paneer",
+            "price": 100
+        },
+        {
+            "id": "87",
+            "type": "full",
+            "name": "Plain Rice",
+            "price": 50
+        },
+        {
+            "id": "c7",
+            "type": "half",
+            "name": "Roti (2 pcs)",
+            "price": 50
+        },
+        {
+            "id": "dc",
+            "type": "full",
+            "name": "Kadhi Chawal",
+            "price": 120
+        },
+        {
+            "id": "c4",
+            "type": "half",
+            "name": "Kadhi Chawal",
+            "price": 70
+        },
+        {
+            "id": "9a",
+            "type": "half",
+            "name": "Salad",
+            "price": 20
+        },
+        {
+            "id": "82",
+            "type": "1ltr",
+            "name": "Water Bottle",
+            "price": 20
+        },
+        {
+            "id": "7a",
+            "type": "full",
+            "name": "Mix Sabji",
+            "price": 50
+        },
+        {
+            "id": "40",
+            "type": "full",
+            "name": "Dahi",
+            "price": 80
+        },
+        {
+            "id": "10",
+            "type": "half",
+            "name": "Dahi",
+            "price": 40
+        }
+    ]
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-15",
+    "time": "9:00 AM to 12:00 PM",
+    "title": "Career Development Workshop",
+    "tag": "Business and Technology",
+    "audience": "Third and Fourth-year Students",
+    "color":"#E4EDFA"
+    
+    
+
+
+  },
+  {
+    "id": 2,
+    "date": "2026-03-15",
+    "time": "2:00 PM to 5:00 PM",
+    "title": "Guest Lecture Series",
+    "tag": "Humanities and Social Sciences",
+    "audience": "All Students",
+    "color":"#a3e1dd"
+  },
+  {
+    "id": 3,
+    "date": "2026-03-15",
+    "time": "7:00 PM to 10:00 PM",
+    "title": "Movie Night under the Stars",
+    "tag": "Hosted  the University Film Club",
+    "audience": "All Classes",
+    "color":"#D7F4E9"
+  },
+  {
+    "id": 4,
+    "date": "2026-06-15",
+    "time": "9:00 AM to 12:00 PM",
+    "title": "Career Development Workshop",
+    "tag": "Business and Technology",
+    "audience": "Third and Fourth-year Students",
+    "color":"#E4EDFA"
+
+  },
+  {
+    "id": 5,
+    "date": "2026-06-15",
+    "time": "2:00 PM to 5:00 PM",
+    "title": "Guest Lecture Series",
+    "tag": "Humanities and Social Sciences",
+    "audience": "All Students",
+    "color":"#2E946C"
+  },
+  {
+    "id": 6,
+    "date": "2026-06-15",
+    "time": "7:00 PM to 10:00 PM",
+    "title": "Movie Night under the Stars",
+    "tag": "Hosted the University Film Club",
+    "audience": "All Classes",
+    "color":"#D7F4E9"
+
+  },
+  {
+    "id": 7,
+    "date": "2027-08-15",
+    "time": "9:00 AM to 12:00 PM",
+    "title": "Career Development Workshop",
+    "tag": "Business and Technology",
+    "audience": "Third and Fourth-year Students",
+    "color":"#E4EDFA"
+
+    
+  },
+  {
+    "id": 8,
+    "date": "2027-08-15",
+    "time": "2:00 PM to 5:00 PM",
+    "title": "Guest Lecture Series",
+    "tag": "Humanities and Social Sciences",
+    "audience": "All Students",
+     "color":"#2E946C"
+  
+
+  },
+  {
+    "id": 9,
+    "date": "2027-08-15",
+    "time": "7:00 PM to 10:00 PM",
+    "title": "Movie Night under the Stars",
+    "tag": "Hosted the University Film Club",
+    "audience": "All Classes",
+    "color":"#D7F4E9"
+   
+    
+  }
+]

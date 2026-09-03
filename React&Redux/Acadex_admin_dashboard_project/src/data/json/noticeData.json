@@ -1,0 +1,41 @@
+{
+  "noticeData": [
+    {
+      "id": 1,
+      "title": "Internship Opportunities",
+      "description": "Applications for spring internships are now open! Visit the Career Services portal to apply and view listings from over 200 companies.",
+      "date": "October 10, 2024",
+      "source": "Career Services Center",
+      "count": 1510,
+      "image":"src/assets/image/awtarimage3.webp"
+
+    },
+    {
+      "id": 2,
+      "title": "New Library Resources",
+      "description": "Explore new additions to our library collections, including latest journals and e-books in various fields. Available for access starting October 15.",
+      "date": "October 8, 2024",
+      "source": "University Library",
+      "count": 725,
+      "image":"src/assets/image/avtarimage.webp"
+    },
+    {
+      "id": 3,
+      "title": "Lecture Series Announcement",
+      "description": "Join us for our annual Fall Lecture Series featuring distinguished speakers from around the globe. First lecture on 'The Future of Technology' scheduled for October 10.",
+      "date": "October 5, 2024",
+      "source": "Academic Affairs Office",
+      "count": 873,
+      "image":"src/assets/image/awtarimage3.webp"
+    },
+    {
+      "id": 4,
+      "title": "University Charity Ball",
+      "description": "Tickets for the Annual University Charity Ball are on sale now! Join us on October 25 for a night of entertainment, fine dining, and fundraising.",
+      "date": "October 3, 2024",
+      "source": "Student Union",
+      "count": 633,
+      "image":"src/assets/image/avtarimage.webp"
+    }
+  ]
+}

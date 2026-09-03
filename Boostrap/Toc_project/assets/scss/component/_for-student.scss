@@ -1,0 +1,25 @@
+.for-student{
+    .content-text{
+        a{
+            background-color: transparent;
+            color: white;
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+    .content-text-2{
+        a{
+            background-color: #23BDEE;
+            color: white;
+            &:hover{
+                background-color: black;
+                color:#23BDEE;
+                border: none;
+                
+                
+            }
+        }
+    }
+}

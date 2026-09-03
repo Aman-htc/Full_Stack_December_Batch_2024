@@ -1,0 +1,313 @@
+$font-primary: 'Fira Sans', sans-serif;
+
+$font-secondary: 'Poppins', sans-serif;
+
+
+
+
+//    DISPLAY
+
+.Dis-1 {
+    font-family:$font-secondary;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Dis-2 {
+    font-family: $font-secondary;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.Display-3 {
+    font-family: $font-primary;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.Display-4 {
+    font-family: $font-primary;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+//    TITLE
+
+.Title-1-Bold {
+    font-family: $font-primary;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.Title-1-SemiBold {
+    font-family: $font-primary;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Title-2-Bold {
+    font-family: $font-primary;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Title-2-SemiBold {
+    font-family: $font-primary;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Title-3-SemiBold {
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Title-4-Medium {
+    font-family: $font-secondary;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Title-4-Bold {
+    font-family: $font-primary;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.Button-Medium {
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Button-Small {
+    font-family: $font-primary;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* =========================
+   LEAD
+========================= */
+.Lead-SemiBold {
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+//    BODY
+.Body-Regular {
+    font-family: $font-primary;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Body-Bold {
+    font-family: $font-secondary;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+// small
+.Small-Regular {
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Small-Medium {
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+.XSmall-Regular {
+    font-family: $font-primary;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.XSmall-Medium {
+    font-family: $font-primary;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.XSmall-simiBold {
+    font-family: $font-secondary;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.border-color {
+    border: 1px solid #EEEEEE;
+}
+
+.start-borser {
+    border-left: 2px solid $gray-300;
+
+}
+
+.chart {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+
+    border-radius: 10px;
+    //   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    border: 1px solid #EEEEEE;
+}
+
+.bg-color {
+    background-color: #FFFFFF
+}
+
+
+
+
+.descripation:hover {
+    background-color: #EFEFF0;
+    padding-left: 4px;
+    padding-right: 2px;
+    border-radius: 7px;
+    padding-block: 2px;
+    // color: black;
+    font-weight: bolder;
+
+    cursor: pointer;
+
+}
+
+
+
+@import '../variables';
+
+
+.gray-100 {
+    color: $gray-100;
+}
+
+.gray-200 {
+    color: $gray-200;
+}
+
+.gray-300 {
+    color: $gray-300;
+}
+
+.gray-400 {
+    color: $gray-400;
+}
+
+.gray-light {
+    color: $gray-light;
+}
+
+.gray-500 {
+    color: #7C7C7C;
+}
+
+.bg-gray-light {
+    background-color: $gray-light;
+
+}
+
+.border-radius {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.box-round {
+    width: 27px;
+    height: 22px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.form-input {
+    color: #333333;
+    font-family: $font-secondary;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 2px;
+
+}
+
+.inpur-border {
+    border: none;
+    border-top: 2px solid #CECECE;
+    background-color: #FFFFFF;
+
+}
+
+.padding-x {
+    padding-inline: 2rem;
+
+}
+@media (min-width: 768px) {
+  .padding-x {
+    padding-inline:7rem;
+    
+  }
+}
+@media (min-width: 1400px) {
+  .padding-x {
+    padding-inline:15rem;
+    
+  }
+}
+
+
+
+.padding-b {
+    padding-bottom: 7rem;
+
+}
+.small-p{
+    padding-bottom: 6rem;
+}
+.small-py{
+    padding-block: 6rem;
+}
+
+
+.link-hover:hover{
+    color:#1C67D6 ;
+    font-size: 16px;
+}
+
+
+// header nab var
+.bell-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-dot {
+  position: absolute;
+  top:7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+.year-mb{
+    margin-bottom: 14px;
+}
+

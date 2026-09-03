@@ -1,0 +1,79 @@
+[
+    {
+        "id": 101,
+        "name": "aman",
+        "contact": 8102648831,
+        "address": "arna",
+        "active": true
+    },
+    {
+        "id": 102,
+        "name": "vishal",
+        "contact": 9876543465,
+        "address": "jhirwan",
+        "active": false
+    },
+    {
+        "id": 103,
+        "name": "ranjan",
+        "contact": 9876543234,
+        "address": "jhirwan",
+        "active": false
+    },
+    {
+        "id": 102,
+        "name": "aman",
+        "contact": 9876543219,
+        "address": "arna",
+        "active": true
+    },
+    {
+        "id": 102,
+        "name": "aman",
+        "contact": 987654321,
+        "address": "arna",
+        "active": false
+    },
+    {
+        "id": 106,
+        "name": "vishal",
+        "contact": 9876543425,
+        "address": "arna",
+        "active": true
+    },
+    {
+        "id": 107,
+        "name": "suraj",
+        "contact": 9876456376,
+        "address": "Arna",
+        "active": false
+    },
+    {
+        "id": 102,
+        "name": "aman",
+        "contact": 987647598,
+        "address": "arna",
+        "active": true
+    },
+    {
+        "id": 121,
+        "name": "aman",
+        "contact": 9876545454,
+        "address": "arna",
+        "active": false
+    },
+    {
+        "id": 21,
+        "name": "aamna",
+        "contact": 9898787656,
+        "address": "ara",
+        "active": true
+    },
+    {
+        "id": 98,
+        "name": "raja",
+        "contact": 8987876565,
+        "address": "arna",
+        "active": true
+    }
+]

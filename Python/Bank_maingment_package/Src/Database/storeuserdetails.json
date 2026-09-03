@@ -1,0 +1,19 @@
+[
+    {
+        "account_number": 1212121212,
+        "user_name": "aman",
+        "address": [
+            {
+                "address": "arna",
+                "district_name": "gopaganj",
+                "State": "bihr"
+            }
+        ]
+    },
+    {
+        "deposit_money": 4000
+    },
+    {
+        "withdrow_money": 2000
+    }
+]
