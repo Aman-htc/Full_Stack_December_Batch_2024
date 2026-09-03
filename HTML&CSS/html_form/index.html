@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta nmae="description" content="">
+    <meta name="author" content="">
+    <meta name="">
+    <title>User registration system</title>
+</head>
+<body>
+
+    
+    <main  style="height: 900px;max-width: 500px;margin: 50px auto;background-color:white;border-radius: 8px; box-shadow: 5px 5px 10px rgba(119, 117, 117, 0.849);
+    padding: 30px; justify-content: center;">
+            <h1 style="text-align: center; background-color: green; max-width: 500px; margin: 50px auto; border-radius: 10px;"> Create an HTML form for user registration system</h1>
+        <form >
+            <label for="name" style="display: block; font-size: larger; font-weight: bolder;"> Full Name</label>
+            <input type="text" id="name" name="name" style="width: 400px; border: 1px solid #ccc;height: 40px; border-radius: 10px;color: rgb(2, 2, 2); font-size: larger;" required/>
+            <br>
+            <br>
+            <label for="email" style="display: block; font-size: larger; font-weight: bolder;"> Email</label>
+            <input type="email" id="email" name="email" style="width: 400px; border: 1px solid #ccc;height: 40px; border-radius: 10px;color: rgb(5, 5, 5); font-size: larger;" required/>
+            <br>
+            <br>
+            <label for="date" style="display: block; font-size: larger; font-weight: bolder;">  Date Birth</label>
+            <input type="date" id="date" name="date" style="width: 400px;  border: 1px solid #ccc;height: 40px; border-radius: 10px; color: rgb(5, 5, 5); font-size: larger;" mix="2018-6-18" required />
+            <br>
+            <br>
+            <label for="password" style="display: block; font-size: larger; font-weight: bolder;">  Password</label>
+            <input type="password" id="password" name="password" style="width: 400px;  border: 1px solid #ccc;height: 40px; border-radius: 10px; color: rgb(5, 5, 5); font-size: larger;" required minlength="8" maxlength="8"/>
+            <br>
+            <br>
+
+            
+            <label for="Gender" style="display: block; font-size: larger; font-weight: bolder;"> Gender </label>
+            <label for="Gender1" >Male <input type="radio" id='Gender1' name="Gender" required/></label>
+            <label for="Gender2" >Fmale <input type="radio" id='Gender2' name="Gender" required/></label>
+            <label for="Gender3" >Other <input type="radio" id='Gender3' name="Gender" required/></label>
+            <br>
+            <br>
+            <label  style="display: block; font-size: larger; font-weight: bolder;"> Skills </label>
+            <label for="Skills1" > Coding <input type="checkbox" id='Skills1' name="Skills"/></label>
+            <label for="Skills2" > Music  <input type="checkbox" id='Skills2' name="Skills"/></label>
+            <label for="Skills3" > Sport <input type="checkbox" id='Skills3' name="Skills"/></label>
+            <label for="Skills4" > Reading <input type="checkbox" id='Skills4' name="Skills"/></label>
+            
+            <br>
+            <br>
+            <label  style="display: block; font-size: larger; font-weight: bolder;">Select Country</label>
+            <select  style="width: 400px; border: 1px solid #ccc; height: 40px; border-radius:10px;color: rgb(5, 5, 5); font-size: larger;">
+                <option value="India" selected>India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Srilanka">Srilanka</option>
+            </select>
+            <br>
+            <br>
+            <label for="picture" style="display: block; font-weight: bolder; font-size: larger;"> Profile Picture</label>
+            <input type="file" accept="image*/" name="picture" id="picture" >
+            <br>
+            <br>
+            <label for="bio" style="display: block; font-weight: bolder; font-size: larger;">Bio</label>
+            <textarea style="width: 400px;" ></textarea>
+            <br>
+            <br>
+            
+            <button style="width: 400px; background-color: green; border-radius: 10px;border: none; color: white;font-size: medium; height: 40px;"> Submit </button>
+        </form>
+    </main>
+    
+</body>
+</html>

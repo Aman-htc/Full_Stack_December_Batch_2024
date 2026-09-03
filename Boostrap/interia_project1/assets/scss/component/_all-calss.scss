@@ -1,0 +1,41 @@
+// font- family
+.kanit-text{
+    font-family: 'Kanit',sans-serif;
+}
+.nunito-text{
+    font-family: 'Nunito',sans-serif;
+}
+.rounded-fiex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.writing-mode{
+    writing-mode: vertical-rl;
+    // align-items: center;
+
+    
+}
+.hr{
+    height: 2px;
+    background-color:#6D7D7D;
+
+}
+.letter-spacing{
+    letter-spacing: 8px;
+}
+
+.hover{
+    color: #fff;
+     &:hover{
+        background-color: #fff;
+        color:rgb(15, 15, 15);
+        
+        
+    }
+}
+.box{
+    width: 10px;
+}
+

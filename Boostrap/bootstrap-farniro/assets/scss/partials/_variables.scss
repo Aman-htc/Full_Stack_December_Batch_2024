@@ -1,0 +1,72 @@
+$prefix:'Furniro-';
+
+
+$primary:#B88E2F;
+$danger:#E97171;
+$success:#2EC1AC;
+$bg-color:#FFF3E3;
+
+.bg-color{
+  background-color:$bg-color ;
+}
+
+
+$primary-300:#FFF3E3;
+$primary-300:#FCF8F3;
+
+// color
+$gray-900:#3a3a3a;
+$gray-800:#616161;
+$gray-600:#898989;
+$gray-500:#9F9F9F;
+$gray-400:#B0B0B0;
+
+
+
+
+
+
+// typography
+$font-family-base:'poppins',sans-serif;
+$headings-color: #333333;
+$headings-font-weight:700;
+
+
+// link
+$link-color:#000;
+
+
+// conatiners
+$sm:540px;
+$md:720px;
+$lg:960px;
+$xl:1140px;
+$xxl:1236px;
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl
+);
+
+$navbar-nav-link-padding-x : calc(1rem + 1.2vw);
+
+
+//btn
+$btn-padding-y:.78rem;
+$btn-padding-x:2.23rem;
+
+// $btn-padding-y-lg: min(calc(.83rem + .7vw) , 24px);
+
+$btn-padding-x-lg: 4.5rem;
+$btn-font-size-lg:1rem;
+
+
+
+// border-radiuse
+
+$btn-border-radius:0;
+$btn-border-radius-lg:0;
+$btn-border-radius-sm:0;

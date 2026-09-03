@@ -1,0 +1,41 @@
+.footer-section{
+    background-color: black;
+    .div{
+        width: 36px;
+        height: 36px;
+        &:hover{
+            background-color: blue;
+        }
+        
+    }
+    span{
+        width: 2px ;
+        height: 62px;
+        background-color:#212828;
+        &:hover{
+            background-color: blue;
+        }
+    }
+    
+}
+
+.hr{
+        &:hover{
+            background-color: blue;
+        }
+    }
+
+@media (max-width:768px) {
+    
+        .copy-right{
+            .order2{
+                order: 2;
+            }
+            .order1{
+                order: 1;
+            }
+        }
+    
+
+    
+}    

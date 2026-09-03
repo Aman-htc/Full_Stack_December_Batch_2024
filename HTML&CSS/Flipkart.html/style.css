@@ -1,0 +1,340 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#flip{
+    height: 70px;
+    background-color: whitesmoke;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+    
+    
+
+}
+.logo{
+    
+    
+    
+    text-align: center;
+    font-style: italic;
+    
+
+}
+.logo:hover{
+    border: 1px solid black;
+}
+h2{
+    color: blue;
+}
+span{
+    color: orange;
+}
+#input{
+    height: 35px;
+    width: 500px;
+    
+    
+    
+    }
+    input{
+        height: 35px;
+        width: 500px;
+        background-color: rgba(135, 207, 235, 0.425);
+        border-radius: 5px;
+    }
+    #select{
+    height: 40px;
+    width: 75px;
+    
+    font-weight: bolder;
+    
+    
+    }
+    
+    select{
+        height: 35px;
+        width: 70px;
+        border: none;
+        font-weight: bolder;
+        background-color: black;
+
+    }
+    #chat{
+        height: 40px;
+        width: 70px;
+        
+        text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+        
+        
+    }
+    #becom{
+        height: 35px;
+        width: 150px;
+        
+        text-align: center;
+        padding-top: 10px;
+    font-weight: bolder;
+        
+    }
+    #box2{
+        height: 200px;
+        background-color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+         justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+    #box3{
+        height: 150px;
+        width: 120px;
+        
+    }
+    #box4{height: 150px;
+        width: 120px;
+        
+
+    }
+    #box5{
+        height: 150px;
+        width: 120px;
+        
+    }
+    #box6{
+        height: 150px;
+        width: 120px;
+     
+    }
+    #box7{
+        height: 150px;
+        width: 120px;
+        
+    }
+    #box8{
+        height: 150px;
+        width: 120px;
+        
+        }
+
+        .imageflogo{
+            width: 1350px;
+        }
+    #back{
+        height: 340px;
+        
+        background-color:white;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        
+    }
+    #back1{
+        height: 200px;
+        width: 150px;
+        border: 1px solid rgba(245, 222, 179, 0.322);
+        
+    }
+    #back2{
+        height: 200px;
+        width: 150px;
+        border: 1px solid rgba(245, 222, 179, 0.322);
+           
+    }
+    #back3{
+        height: 200px;
+        width: 150px;
+        border: 1px solid rgba(245, 222, 179, 0.322);   
+    }
+    #back4{
+        height: 200px;
+        width: 150px;
+        border: 1px solid  rgba(245, 222, 179, 0.322);   
+    } 
+    
+    #back5{
+        height: 200px;
+        width: 150px;
+        border: 1px solid rgba(245, 222, 179, 0.322);   
+    } 
+    #back6{
+        height: 300px;
+        width: 200px;
+    }
+    
+     a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+    select{
+        background-color:white;
+    }
+    
+        #four{
+        height: 500px;
+        width: 400px;
+    text-align: center;
+    }
+    #four1{
+        height: 200px;
+        width: 360px;
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        
+    }
+    #for1{
+        height: 180px;
+        width: 150px;
+        
+    }
+    #for2{
+        height:180px;
+        width: 150px; 
+    
+        
+    }
+    #four2{
+        height: 200px;
+        width: 360px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+
+    }
+    #for3{ height:180px;
+        width: 150px; 
+    
+
+    }
+#for4{height:180px;
+    width: 150px; 
+}
+#ram{
+    height: 500px;
+    
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#ram1{
+    height: 500px;
+    width: 360px;
+    
+    text-align: center;
+    color: black;
+}
+#ram2{
+    height: 240px;
+    width: 350px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#ram3{
+    height: 180px;
+    width: 150px;
+    
+}
+#ram4{
+    height: 180px;
+    width: 150px;
+    
+}
+#ram5{
+    height: 240px;
+    width: 350px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#ram6{
+    height: 180px;
+    width: 150px;
+    
+}
+#ram7{height: 180px;
+    width: 150px;
+
+}
+
+
+
+#sohan{
+    height: 500px;
+    width: 360px;
+    
+    text-align: center;
+    color: black;
+}
+
+#sohan1{
+    height: 240px;
+    width: 350px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#sohan2{
+    height: 180px;
+    width: 150px;
+    
+}
+#sohan3{
+    height: 180px;
+    width: 150px;
+    
+}
+#sohan4{
+    height: 240px;
+    width: 350px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sohan5{
+    height: 180px;
+    width: 150px;
+    
+}
+#sohan6{height: 180px;
+    width: 150px;
+    
+}
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    

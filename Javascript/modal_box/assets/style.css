@@ -1,0 +1,57 @@
+
+#main-box{
+    display: none;
+}
+#modal{
+
+    
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+    
+
+}
+.heading{
+    display: flex;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius: 20px; */
+    
+    
+
+}
+.cancel-btn{
+    
+    color:red;
+    border: 2px solid white;
+    background-color: greenyellow;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.cancel-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.opne-box{
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+
+    
+    
+}
+.opne-box:hover{
+    background-color: black;
+    color: white;
+
+}

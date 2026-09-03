@@ -1,0 +1,19 @@
+.project-handl {
+    .image-2{
+        left: 40px;
+    }
+    .image-3{
+        left: 80px
+    }
+
+    .image-4{
+        left:120px
+    }
+    .image-box{
+        &:hover{
+        background-color: aliceblue;
+        // background-color: rgb(31, 30, 30);
+        }
+
+    }
+}

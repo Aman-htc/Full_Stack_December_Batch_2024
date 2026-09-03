@@ -1,0 +1,144 @@
+
+
+
+/* #navbar{ 
+    height: 200px;
+    background-color:#fd07d4;
+    border-radius: 10px;
+    text-align: center;
+}
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+    margin-top: 10px;
+}
+h3{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+}
+#zx{
+    height: 100px;
+    width: 1350px;
+    background-color: rgb(223, 235, 231);
+    border-radius: 10px;
+    color: brown;
+    margin-top: -30px;
+    
+}
+#as{
+    height: 150px;
+    width: 1350px;
+    background-color: rgb(230, 245, 240);
+    border-radius: 10px;
+    margin-top: -20px;
+}
+
+#cv{
+    height:80px;
+    width: 80px;
+    border: 1px solid black;
+    margin-left: 30px;
+    padding: 10px;
+}
+    
+    
+    #ty{
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+    margin-left: 150px;
+    margin-top: -100px;
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+}
+#mb{
+    height: 50px;
+    background-color:rgb(20, 20, 61);
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    align-items: center;
+    
+    
+
+}
+#ui{
+    padding-top: 10px;
+}*/
+.main-box{
+    background-color: red;
+    height: 300px;
+    display: flex;
+    
+    
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+@media only  screen and (max-width:500px){
+    .main-box{
+        background-color: rgb(17, 17, 18);
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+#calculator{
+    background-color:  black;
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    padding: 25px;
+}
+#display{
+    width: 270px;
+    padding: 20px;
+margin-bottom: 10px;
+
+    background-color: rgba(9, 85, 19, 0.39);
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    color: wheat;
+    font-size: 30px;
+    
+}
+#keybutton{
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    cursor: pointer;
+    
+
+    
+}
+button{
+    border: none;
+    background-color: pink;
+    font-size: 30px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(179, 74, 74);
+
+}
+.button1{
+    background-color: yellow;
+
+}
+.button1:hover{
+background-color: rgb(158, 228, 18);
+}
+
+

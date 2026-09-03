@@ -1,0 +1,14 @@
+
+
+#bar-container,#search {
+      width: 600px;
+      height: 25px;
+      border: 2px solid black;
+      margin: 20px;
+    }
+    #bar {
+      width: 0%;
+      height: 100%;
+      background: green;
+      /* transition: 0.3s; */
+    }

@@ -1,0 +1,221 @@
+.hero-section {
+    span {
+        width: 60px;
+        height: 60px;
+        border: 1px solid white;
+
+        &:hover {
+            background-color: #6D7D7D;
+            border: 1px solid #6D7D7D;
+        }
+
+    
+
+    }
+    .inset{
+        inset: 0;
+
+    }
+}
+
+header {
+    z-index: 1;
+   
+
+}
+
+.hero-section {
+    .swipe {
+        bottom: 0;
+
+        p {
+            writing-mode: vertical-lr;
+
+        }
+
+    }
+
+    .main-box {
+        bottom: 0;
+        right: 0;
+        top: -350px;
+    }
+}
+
+@media (max-width:900px) {
+    .hero-section {
+        .swipe {
+            p {
+                writing-mode: horizontal-tb;
+
+            }
+        }
+
+        .main-box {
+            // top: -300px;
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .design-landan {
+        h3 {
+            font-size: 20px;
+        }
+
+        .heading {
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width:800px) {
+    .hero-section {
+        .main-box {
+           
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .design-landan {
+        .heading {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width:600px) {
+    .hero-section {
+        .main-box {
+          
+
+            h2 {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 7px;
+            }
+
+            span {
+                width: 40px;
+                height: 40px;
+
+                img {
+                    width: 20px;
+                }
+
+            }
+
+        }
+    }
+   
+
+}
+
+@media (max-width:500px) {
+    .hero-section {
+
+        .main-box {
+
+            
+
+            h2 {
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 5px;
+            }
+
+            span {
+                width: 30px;
+                height: 30px;
+
+                img {
+                    width: 15px;
+                }
+
+
+
+            }
+        }
+
+        .swipe {
+            p {
+                font-size: 20px;
+            }
+        }
+
+
+
+    }
+    .design-landan{
+        .Blending {
+            font-size: 10px;
+        }
+    }
+
+}
+.Blending{
+    font-size: 40px;
+}
+
+
+@media (max-width:400px) {
+    .hero-section {
+
+        .main-box {
+
+           
+
+            h2 {
+                font-size: 10px;
+            }
+
+            p {
+                font-size: 4px;
+            }
+
+            span {
+                width: 20px;
+                height: 20px;
+
+                img {
+                    width: 10px;
+                }
+
+
+
+            }
+        }
+
+        .swipe {
+            p {
+                font-size: 7px;
+            }
+        }
+
+
+
+    }
+
+}

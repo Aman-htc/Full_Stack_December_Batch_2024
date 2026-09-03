@@ -1,0 +1,203 @@
+body{
+    background-color: black;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ header{ 
+     position: sticky; 
+    top: 0;
+
+ }
+nav{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.text ul{
+    display: flex;
+    list-style: none;
+font-weight: bold;
+gap: 40px;
+padding: 10px;
+}
+.text li a{
+    color: black;
+    text-decoration: none;
+    
+}
+.text li:hover{
+    background-color: yellow;
+    border: 2px solid green;
+    /* padding: 10px; */
+}
+.text li{
+    padding: 10px;
+}
+.text1{
+    color: white;
+    font-size: 9px;
+    font-family: sans-serif;
+    
+}
+.ato-main{
+    display: flex;
+}
+.logo-main{
+    padding: 80px;
+}
+.button{
+    display: flex;
+    gap: 40px;
+}
+.button1{
+    background-color: skyblue;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+.button1 a{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.button1 span{
+    color: black;
+    font-size: 15px;
+}
+.button2{
+    border: 2px solid white;
+
+    width: 200px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 20px;
+    
+}
+.button2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.button2:hover{
+    background-color: green;
+}
+.update a{
+    color: white;
+    font-size: 20px;
+}
+.vedio{
+    padding: 40px;
+}
+.box{
+    background-color: #353434;
+    height: 300px;
+    border-radius: 10px;
+    padding:15px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    color: white;
+    font-weight: bolder;
+    
+    height: 300px;
+    width: 700px;
+    padding: 10px;
+}
+.et-main-text{
+    
+    width: 700px;
+
+
+}
+.et-text-enner{
+    color: white;
+    font-size: 
+    16px;
+}
+.et-button{
+    background-color: green;
+    width: 200px;
+    margin-left: 200px;
+    text-align: center;
+
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+.et-button a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.yellow-barnds{
+    background-color: yellow;
+    text-align: center;
+    font-size: bold;
+    padding: 20px;
+}  
+
+.grid{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    background-color: red;
+    
+}
+.iteam{
+    text-align: center;
+    font-weight: bolder;
+    background-color: green;
+    border: 5px solid white;
+
+    padding: 20px;
+    
+}
+.iteam:hover{
+background-color: yellow;
+}
+.english{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    gap: 20px;
+
+}
+.iteam1{
+    background-color: palevioletred;
+    text-align: center;
+    font-size: bold;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.color{
+    background-color: green;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+
+}
+.color1{
+    background-color:blue;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+
+}
+
+

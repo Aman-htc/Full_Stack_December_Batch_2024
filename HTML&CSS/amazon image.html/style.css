@@ -1,0 +1,236 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#logo{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    text-align: center;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: fixed; */
+    
+}
+.input-border{
+    width: 450px;
+    height: 40px;
+    border: 2ppx solid orange;
+    display: flex;
+}
+.input-border:hover{
+border: 2px solid orange;
+border-radius: 5px;
+}
+
+
+input{
+    width: 100%;
+    height: 40px;
+    border: none;
+
+}
+select{
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40px;
+    background-color: pink;
+
+}
+button{
+    border: none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+    background-color: orange;
+}
+
+
+#af{background-color:orange;
+
+}
+a{
+    
+    color: white;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+p{
+    font-weight: bolder;
+}
+
+    
+
+#op{
+    margin-top: -10px;
+}
+
+    
+
+
+
+#font2{
+    margin-right: 40px;
+    
+}
+#logo2{
+    height: 50px;
+    background-color: rgb(20, 20, 49);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+}
+.bordersize:hover{
+    border: 1px solid whitesmoke;
+    padding: 7px;
+}
+
+    
+
+
+
+
+#image{
+    background-image: url(MAIN\ PHOO.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 1360px;
+}
+#image2{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-left: 50px;
+
+
+
+}
+img{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#image3{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+#image4{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-left:1000px;
+    margin-top: -300px;
+}
+h1{
+padding-left: 40px;
+padding-top: 40px;
+}
+#back{
+    height: 200px;
+    background-color: white;
+    
+}
+#store{
+    height: 400px;
+    background-color:pink;
+}
+#from{
+    height: 400px;
+    background-color: rgb(62, 71, 75);
+    
+}
+#combo{
+    height: 150px;
+    
+    background-color: rgb(179, 204, 194);
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-right: 20px;
+
+}
+#shoes{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    
+    margin-left: 20px;
+    padding-left: 5px;
+    
+
+}
+#sho{
+    height: 90px;
+    width: 110px;
+    background-image: url(Shoes.jpg);
+    background-size: cover;
+    
+
+}
+#co{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    
+    margin-left: 240px;
+    margin-top: -120px;
+}
+#com{
+    height: 90px;
+    width: 110px;
+    background-image: url(Combo.jpg);
+    background-size: cover;
+    
+}
+#bike{
+    height: 120px;
+    width: 120px;
+    border: 1px solid crimson;
+    margin-left: 450px;
+    margin-top: -150px;
+
+}
+#bi{
+height: 70px;
+width: 110px;
+background-image: url(bike.jpg);
+display: flex;
+background-size: cover;
+}
+
+#checkedweather{
+    width: 300px;
+    margin: 40px;
+}
+.m{
+    background-color: yellow;
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+

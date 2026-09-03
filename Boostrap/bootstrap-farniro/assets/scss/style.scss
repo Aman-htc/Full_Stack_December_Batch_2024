@@ -1,0 +1,24 @@
+
+
+
+@import './partials/variables';
+
+@import './../../node_modules/bootstrap/scss/functions';
+@import './../../node_modules/bootstrap/scss/variables';
+@import './component/product';
+@import './component/room-inspiration';
+// spacers
+$custom-spacers: (
+
+  6: $spacer * 4,
+  7: $spacer *2.5,
+  8:$spacer *2
+);
+
+$spacers : map-merge($map1: $custom-spacers, $map2:$spacers );
+
+
+
+
+
+@import './../../node_modules/bootstrap/scss/bootstrap.scss'

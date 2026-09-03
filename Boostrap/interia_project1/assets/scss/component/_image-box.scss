@@ -1,0 +1,14 @@
+@each $bp, $width in $grid-breakpoints{
+    @media (min-width:$width) {
+        .container{
+            --container-width: #{map-get($map: $container-max-widths, $key:$bp )};
+        }
+        
+    }
+}
+
+
+.my-box {
+        max-width: calc(((100vw - var(--container-width)) / 2) + var(--container-width));
+}
+    

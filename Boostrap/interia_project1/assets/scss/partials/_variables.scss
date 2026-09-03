@@ -1,0 +1,38 @@
+
+
+// color
+$primary:#ffffff;
+$success:#6D7D7D;
+$secondary:#212828;
+$dark:rgb(17, 17, 17);
+
+
+
+// conatiners
+$sm:540px;
+$md:720px;
+$lg:960px;
+$xl:1140px;
+$xxl:1140px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1140px,
+  xxl: 1140px,
+  
+) ;
+
+$container-max-widths: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+  
+);
+
+// font
+$h2-font-size: 40px;

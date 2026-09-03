@@ -1,0 +1,31 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+  }
+
+  .accordion{
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.accordion:hover {
+    background-color: #2980b9;
+}
+
+.panel{
+    padding: 15px;
+    background-color: #f1f1f1;
+    display: none;
+    border-radius: 5px;
+}

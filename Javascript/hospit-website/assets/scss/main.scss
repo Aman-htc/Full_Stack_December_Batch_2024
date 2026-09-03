@@ -1,0 +1,128 @@
+@import 'variables';
+
+// Global Styles
+body {
+  font-family: $font-family-base;
+  color: $text-dark;
+  margin-top: 80px;
+}
+
+// Navbar
+.navbar-brand {
+  font-size: 1.5rem;
+  span {
+    color: $primary-color;
+  }
+}
+
+// Hero Section
+.hero {
+  background-color: $bg-light;
+  min-height: 90vh;
+
+  h1 {
+    color: $primary-color;
+    font-size: 2.5rem;
+  }
+
+  .hero-img {
+    max-width: 90%;
+  }
+}
+
+// Service Cards
+.service-card {
+  border: none;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+}
+
+// Footer
+footer {
+  background: $primary-color;
+  color: $text-light;
+}
+
+
+// 🔹 Doctors Page Styles
+.doctors {
+  .doctor-card {
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    img {
+      transition: transform 0.4s ease;
+      height: 350px;
+    }
+    &:hover {
+      transform: translateY(-8px);
+      img {
+        transform: scale(1.1);
+      }
+
+    }
+
+    
+
+    .card-body {
+      background-color: #fff;
+      text-align: center;
+
+      h5 {
+        color: $primary-color;
+      }
+
+      .social-icons {
+        margin-top: 10px;
+
+        a {
+          color: $primary-color;
+          margin: 0 8px;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: darken($primary-color, 10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+// About Page
+.about {
+  h2 {
+    color: $primary-color;
+  }
+  ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+}
+
+// Services Page
+.services-page {
+  .service-item {
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Contact Page
+.contact {
+  form {
+    border: 1px solid #eee;
+    .form-control {
+      border-radius: 8px;
+    }
+    button {
+      border-radius: 8px;
+    }
+  }
+}

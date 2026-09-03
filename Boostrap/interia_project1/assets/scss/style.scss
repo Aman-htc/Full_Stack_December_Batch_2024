@@ -1,0 +1,43 @@
+@import './partials/variables';
+
+
+
+
+@import './../../node_modules/bootstrap/scss/functions';
+@import './../../node_modules/bootstrap/scss/variables';
+
+
+
+
+
+
+
+$custom-spacers: (
+
+  6: $spacer * 4,
+  7: $spacer *2.5,
+  8:$spacer *2,
+
+  10:$spacer *12,
+  12:$spacer *16,
+  11:$spacer *7,
+  13:$spacer *5
+);
+
+
+$spacers : map-merge($map1: $custom-spacers, $map2:$spacers );
+
+
+
+
+
+
+
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import './component/all-calss';
+@import './component/hero-section';
+@import './component/desgin-stdio';
+@import './component/project-handal';
+@import './component/latest-update';
+@import './component/footer-section'

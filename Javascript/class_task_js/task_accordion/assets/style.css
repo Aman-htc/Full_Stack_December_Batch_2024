@@ -1,0 +1,71 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+  }
+
+  
+  .Accordion{
+    width: 600px;
+    margin: auto;
+  }
+
+  .header{
+    background-color: #3498db;
+    
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    font-size: 30px;
+    
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .6s ease;
+    
+    
+}
+.header:hover{
+  background-color:  #003050;
+}
+  
+.panel{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #f1f1f1;
+    
+   
+    transition: all .6s ease;
+    border-radius: 5px;
+}
+.show{
+  display: none;
+}
+.hide{
+  display: none;
+}
+
+
+
+.box {
+    width: 100px; height: 100px;
+    background: orange; margin: 10px;
+  }
+
+
+
+
+
+
+
+
+
+

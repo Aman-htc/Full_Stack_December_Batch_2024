@@ -1,0 +1,45 @@
+.product {
+
+    .btn-primary{
+        background-color: white;
+        color:$primary;
+        border-color: white;
+        &:hover{
+         background-color:$primary;
+        color:white;
+        border-radius: $primary;
+
+        }
+
+        
+    }
+    .discount {
+        // aspect-ratio: 1/1;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        
+        place-items: center;
+        display: grid
+    }
+    .overlay{
+        opacity: 0;
+        &:hover{
+           
+               opacity: .75;
+        
+    }
+   
+        
+
+    }
+    
+}
+.product{
+    .btn-outline-primary{
+        width: 245px;
+    }
+}
+
+    
+   
